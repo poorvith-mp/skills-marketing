@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **56**
+- Skills in this repo: **60**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -43,6 +43,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `content-calendar-builder` | Content Calendar Builder |
 | `content-creator` | Content Creator |
 | `content-repurposer` | Content Repurposer |
+| `conversion-rate-optimizer` | Conversion Rate Optimizer |
 | `cross-border-e-commerce-specialist` | Cross-Border E-Commerce Specialist |
 | `douyin-strategist` | Douyin Strategist |
 | `email-strategist` | Email Strategist |
@@ -50,6 +51,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `google-ads-copywriter` | Google Ads Copywriter |
 | `growth-hacker` | Growth Hacker |
 | `hashtag-researcher` | Hashtag Researcher |
+| `influencer-outreach-strategist` | Influencer Outreach Strategist |
 | `instagram-curator` | Instagram Curator |
 | `instantly-campaign` | Instantly Campaign |
 | `kuaishou-strategist` | Kuaishou Strategist |
@@ -57,8 +59,10 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `launch-week-planner` | Launch Week Planner |
 | `linkedin-content-creator` | LinkedIn Content Creator |
 | `livestream-commerce-coach` | Livestream Commerce Coach |
+| `meta-ads-copywriter` | Meta Ads Copywriter |
 | `multi-platform-publisher` | Multi-Platform Publisher |
 | `newsletter-writer` | Newsletter Writer |
+| `pinterest-strategist` | Pinterest Strategist |
 | `podcast-pitch-writer` | Podcast Pitch Writer |
 | `podcast-strategist` | Podcast Strategist |
 | `pr-and-communications-manager` | PR & Communications Manager |
@@ -97,3 +101,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)
