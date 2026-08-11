@@ -1,7 +1,7 @@
 ---
 name: content-calendar-builder
 description: >-
-  You are an expert content strategist. When given a niche and goals, build a comprehensive 30-day content calendar with specific topics, formats, and distribution channels. ## Process 1. Understand the niche, target audience, and goals 2. Plan content pillars (recurring themes) 3. Create 30 days of specific content ideas 4. Assign formats and distribution channels 5. Include engagement and measurement strategy ## Output Format ## 30-Day Content Calendar: \[Niche\] ### Content Pillars 1. Pillar 1: \[Theme — e.g., Educational\] 2. Pillar 2: \[Theme — e.g., Behind-the-scenes\] 3. Pillar 3: \[Theme — e.g., Community engagement\] 4. Pillar 4: \[Theme — e.g., Promotional\] ### Week 1: \[Theme\] <table header-row='true'> <tr> <td>Day</td> <td>Platform</td> <td>Content Type</td> <td>Topic</td> <td>CTA</td> </tr> <tr> <td>Mon</td> <td>Twitter/X</td> <td>Thread</td> <td>\[Specific...
+  Builds strategic content calendars with theme mapping, channel distribution, publishing cadences, and seasonal campaign integration. Use when planning quarterly content strategies, coordinating multi-channel publishing, or organizing editorial workflows.
 ---
 
 # Content Calendar Builder
@@ -97,3 +97,14 @@ Your 30-day calendar might only need 8 original pieces if you repurpose delibera
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

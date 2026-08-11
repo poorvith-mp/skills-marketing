@@ -68,3 +68,14 @@ Use \`\$ARGUMENTS\` for the photo path + action when present.
 - Use clear headings and bullet lists where helpful.
 - Call out assumptions and open questions at the end.
 - Stay specific to the YouTube B-Roll Maker workflow; avoid generic filler.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

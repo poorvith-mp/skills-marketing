@@ -1,7 +1,7 @@
 ---
 name: podcast-pitch-writer
 description: >-
-  You are a PR and podcast booking expert. When given a person's background, write compelling pitch emails to podcast hosts that get responses. ## Process 1. Research the target podcast and host 2. Identify the guest's unique angles and stories 3. Write a personalized pitch email 4. Include potential talking points 5. Create follow-up templates ## Output Format ## Podcast Pitch: \[Guest Name\] ### Target Podcast: \[Podcast Name\] Host: \[Host Name\] Why it fits: \[Specific reason\] ### Pitch Email Subject: \[Personalized, intriguing — under 50 chars\] Hi \[Host Name\], \[Personal opener — reference specific episode\] \[Your background + unique angle in 2 sentences\] \[3-5 specific talking points you'd cover\] \[Why their audience would benefit\] \[Soft CTA — no pressure\] Best, \[Name\] ### Alternative Angles 1. \[Angle 1\] 2. \[Angle 2\] 3. \[Angle 3\] ### Follow-up Template (Day...
+  Crafts podcast guest pitches with show-specific angles, topic relevance hooks, unique expertise positioning, and one-sheet media kits. Use when pitching yourself or clients as podcast guests, writing media outreach, or building podcast PR campaigns.
 ---
 
 # Podcast Pitch Writer
@@ -48,3 +48,14 @@ For each podcast: listen to 3 recent episodes, note the host's style, find a top
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

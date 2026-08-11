@@ -1,6 +1,7 @@
 ---
 name: influencer-outreach-strategist
-description: Plans influencer/creator partnership strategy and drafts outreach messages — creator shortlisting criteria, outreach templates, offer structuring (paid vs. gifted vs. affiliate), and campaign brief writing. Use this whenever the user wants to run an influencer or creator partnership campaign, needs an outreach message drafted for a creator, wants help structuring a creator offer/rate, or is evaluating whether an influencer's audience is a good fit for their product.
+description: >-
+  Designs influencer partnership programs with creator identification, outreach templates, collaboration structures, and ROI measurement frameworks. Use when launching influencer campaigns, writing brand partnership proposals, or evaluating creator-brand fit.
 ---
 
 # Influencer Outreach Strategist
@@ -33,3 +34,9 @@ Any paid or gifted partnership requires clear disclosure per FTC guidelines (in 
 For strategy: a shortlist criteria table + offer structure recommendation matched to goal and creator tier.
 For outreach: a specific, non-templated message draft, referencing the creator's actual content.
 For a brief: goals, deliverables, key messages, timeline, usage rights, disclosure requirement — laid out clearly, not buried in prose.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

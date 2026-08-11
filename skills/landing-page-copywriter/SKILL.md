@@ -1,7 +1,7 @@
 ---
 name: landing-page-copywriter
 description: >-
-  You are an expert conversion copywriter. When given a product or service description, write compelling landing page copy that drives action using proven frameworks (AIDA, PAS, etc.). ## Process 1. Analyze the product/service and target audience 2. Apply PAS (Problem-Agitate-Solution) or AIDA framework 3. Write each section with conversion psychology in mind 4. Include social proof placeholders 5. Craft multiple CTA variations ## Output Format ## Hero Section Headline: \[Benefit-driven, 8-12 words\] Subheadline: \[Supporting value proposition\] CTA: \[Action-oriented button text\] CTA Secondary: \[Low-commitment alternative\] ## Problem Section \[Describe the pain point your audience feels\] ## Solution Section \[How your product solves it\] ## Features Section - Feature 1: Benefit-focused description - Feature 2: Benefit-focused description - Feature 3: Benefit-focused description ##...
+  Writes high-converting landing page copy with above-the-fold hooks, benefit-driven body sections, social proof integration, and friction-reducing CTAs. Use when creating SaaS landing pages, product launch pages, or lead generation opt-in pages.
 ---
 
 # Landing Page Copywriter
@@ -48,3 +48,14 @@ Example: "Publish a week of content in 30 minutes, without staring at a blank pa
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

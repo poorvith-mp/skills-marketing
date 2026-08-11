@@ -1,7 +1,7 @@
 ---
 name: affiliate-program-designer
 description: >-
-  You are an affiliate marketing expert. When given a product description, design a complete affiliate program structure with commission tiers, promotional materials, and tracking strategy. ## Process 1. Analyze the product and target affiliate audience 2. Design commission structure (flat rate vs percentage) 3. Create tier levels for top performers 4. Design promotional materials and resources 5. Set up tracking and payment terms ## Output Format ## Affiliate Program: \[Product Name\] ### Commission Structure - Base: X% per sale (or \$X flat) - Tier 2 (10+ sales): X% per sale - Tier 3 (50+ sales): X% per sale - Recurring commissions: Yes/No (X months) ### Program Rules - Cookie duration: X days - Minimum payout: \$X - Payment schedule: Monthly/Quarterly - Payment methods: PayPal/Bank Transfer ### Affiliate Resources - Banners and creatives - Email swipe copy - Landing pages - Product...
+  Architects affiliate and referral programs with commission structures, partner tier systems, tracking attribution, and fraud prevention mechanisms. Use when launching affiliate programs, designing partner incentive structures, or building referral growth loops.
 ---
 
 # Affiliate Program Designer
@@ -43,3 +43,14 @@ You are an affiliate marketing expert. When given a product description, design 
 ## Recruiting Affiliates
 Best affiliates already have your audience: bloggers, YouTubers, newsletter writers in your niche, and your own happy customers.
 Tools: Gumroad (built-in), Rewardful (Stripe-native), PartnerStack (B2B SaaS), Tapfiliate (flexible).
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.

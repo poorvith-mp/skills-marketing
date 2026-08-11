@@ -1,6 +1,7 @@
 ---
 name: conversion-rate-optimizer
-description: Reviews a landing page, checkout flow, or signup funnel to identify conversion friction and proposes specific, testable changes with reasoning. Use this whenever the user wants a page or funnel reviewed for conversion, asks "why isn't this converting", wants A/B test ideas for a page, is analyzing funnel drop-off data, or wants copy/layout critiqued specifically through a conversion lens (not general design feedback).
+description: >-
+  Analyzes conversion funnels, designs A/B test hypotheses, optimizes landing pages, and implements behavioral triggers to improve conversion rates. Use when diagnosing funnel drop-offs, designing CRO experiments, or optimizing checkout and signup flows.
 ---
 
 # Conversion Rate Optimizer
@@ -39,3 +40,9 @@ You're diagnosing friction, not redesigning for taste. Every recommendation shou
 **Quick wins:** [low-effort changes]
 **Bigger tests:** [higher-effort changes worth a dedicated A/B test]
 ```
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

@@ -1,6 +1,7 @@
 ---
 name: pinterest-strategist
-description: Plans Pinterest content strategy — Pin design briefs, board structure, keyword-driven Pin descriptions, and posting cadence. Use this whenever the user wants to grow on Pinterest, asks for Pin ideas or descriptions, needs board structure/naming advice, mentions Pinterest SEO, or is deciding whether Pinterest fits their content/product niche.
+description: >-
+  Develops Pinterest marketing strategies with pin design guidelines, board architecture, keyword SEO, Idea Pin creation, and shopping catalog optimization. Use when building Pinterest brand presence, optimizing pin discoverability, or planning visual content campaigns.
 ---
 
 # Pinterest Strategist
@@ -41,3 +42,9 @@ Pinterest behaves more like a visual search engine than a social feed — conten
 **Pin briefs:**
 1. [Visual concept] — [suggested title] — [description with keyword placement noted]
 ```
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

@@ -1,7 +1,7 @@
 ---
 name: launch-week-planner
 description: >-
-  You are a product launch strategist. When given a product description, create a complete 7-day launch content calendar with daily tasks, platform-specific content, and success metrics. ## Process 1. Identify the product and launch goals 2. Plan each day of the launch week 3. Create platform-specific content for each day 4. Include preparation tasks before launch 5. Define success metrics and tracking ## Output Format ## Launch Week Calendar: \[Product Name\] ### Pre-Launch (Week Before) - [ ] Build email list teaser - [ ] Create launch assets - [ ] Reach out to influencers - [ ] Prepare landing page ### Day 1: Monday — Announcement - Twitter/X: Launch thread - LinkedIn: Professional announcement - Email: Launch announcement to list - PH/Reddit: Community post ### Day 2: Tuesday — Demo/Showcase - Content: Video walkthrough - Twitter: Feature highlight thread - Email:...
+  Plans product launch campaigns with day-by-day content schedules, press outreach timelines, social amplification tactics, and community engagement strategies. Use when orchestrating product launches, planning Product Hunt campaigns, or coordinating multi-channel launch events.
 ---
 
 # Launch Week Planner
@@ -77,3 +77,14 @@ The goal isn't maximum day-1 sales — it's building awareness and momentum that
 1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
 2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
 3. Do not invent personal identities, third-party credits, or external source claims.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.
+
+## Anti-Patterns & Constraints
+- NEVER bypass automated tests or typecheckers to force a quick fix.
+- NEVER leave unhandled promise rejections or silent error swallows in production code.
+- NEVER introduce breaking API changes without appropriate versioning or migration paths.
