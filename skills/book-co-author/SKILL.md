@@ -1,7 +1,9 @@
 ---
 name: book-co-author
 description: >-
-  Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters. Use when the user asks about book co-author, needs this workflow, or requests related deliverables.
+  Turns voice notes, fragments and positioning into a structured thought-leadership book for
+  founders and operators. Use when developing a book from scattered material. Not for fiction -
+  use longform-book-author.
 ---
 
 # Book Co-Author

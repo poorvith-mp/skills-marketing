@@ -1,7 +1,9 @@
 ---
 name: china-e-commerce-operator
 description: >-
-  Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy. Use when the user asks about china e-commerce operator, needs this workflow, or requests related deliverables.
+  Runs Taobao, Tmall, Pinduoduo and JD operations: listing optimisation, campaign mechanics and
+  store performance. Use when operating a China domestic store. For export markets, use
+  cross-border-ecommerce-operator.
 ---
 
 # Marketing China E-Commerce Operator

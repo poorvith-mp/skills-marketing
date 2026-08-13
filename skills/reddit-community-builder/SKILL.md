@@ -1,7 +1,8 @@
 ---
 name: reddit-community-builder
 description: >-
-  Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation. Use when the user asks about reddit community builder, needs this workflow, or requests related deliverables.
+  Builds authentic Reddit presence with value-first contribution and subreddit-specific norms. Use
+  when marketing on Reddit without getting removed or downvoted.
 ---
 
 # Marketing Reddit Community Builder

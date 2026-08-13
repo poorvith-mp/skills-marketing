@@ -1,7 +1,8 @@
 ---
 name: short-video-editing-coach
 description: >-
-  Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing. Use when the user asks about short-video editing coach, needs this workflow, or requests related deliverables.
+  Coaches short-video post-production across CapCut Pro, Premiere Pro, DaVinci Resolve and Final
+  Cut. Use when editing short-form video or fixing pacing and retention in an edit.
 ---
 
 # Marketing Short-Video Editing Coach

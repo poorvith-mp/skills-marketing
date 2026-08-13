@@ -1,7 +1,9 @@
 ---
 name: launch-week-planner
 description: >-
-  Plans product launch campaigns with day-by-day content schedules, press outreach timelines, social amplification tactics, and community engagement strategies. Use when orchestrating product launches, planning Product Hunt campaigns, or coordinating multi-channel launch events.
+  Plans a launch week day by day: content schedule, press outreach, social amplification and
+  community activation. Use when coordinating a launch moment. Not for ongoing cadence - use
+  content-calendar-builder.
 ---
 
 # Launch Week Planner

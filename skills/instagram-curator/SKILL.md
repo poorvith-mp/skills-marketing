@@ -1,7 +1,8 @@
 ---
 name: instagram-curator
 description: >-
-  Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement. Use when the user asks about instagram curator, needs this workflow, or requests related deliverables.
+  Builds Instagram presence: visual storytelling, grid aesthetics, Reels and Stories formats and
+  community building. Use when growing an Instagram account or planning its content mix.
 ---
 
 # Marketing Instagram Curator

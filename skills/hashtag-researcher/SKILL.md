@@ -1,7 +1,8 @@
 ---
 name: hashtag-researcher
 description: >-
-  Researches and curates platform-specific hashtag strategies analyzing reach, competition, trending velocity, and audience relevance. Use when optimizing social media discoverability, building hashtag banks, or analyzing hashtag performance data.
+  Researches platform-specific hashtags by reach, competition, trending velocity and audience
+  relevance. Use when choosing hashtags for a post or building a reusable tag set.
 ---
 
 # Hashtag Researcher

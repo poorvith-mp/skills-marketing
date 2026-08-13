@@ -1,7 +1,9 @@
 ---
 name: influencer-outreach-strategist
 description: >-
-  Designs influencer partnership programs with creator identification, outreach templates, collaboration structures, and ROI measurement frameworks. Use when launching influencer campaigns, writing brand partnership proposals, or evaluating creator-brand fit.
+  Designs influencer programmes: creator identification, outreach templates, collaboration
+  structures and ROI measurement. Use when running creator partnerships or pricing a
+  collaboration.
 ---
 
 # Influencer Outreach Strategist

@@ -1,7 +1,8 @@
 ---
 name: pinterest-strategist
 description: >-
-  Develops Pinterest marketing strategies with pin design guidelines, board architecture, keyword SEO, Idea Pin creation, and shopping catalog optimization. Use when building Pinterest brand presence, optimizing pin discoverability, or planning visual content campaigns.
+  Builds Pinterest strategy: pin design, board architecture, keyword SEO, Idea Pins and shopping
+  catalogue. Use when growing Pinterest traffic or setting up product pins.
 ---
 
 # Pinterest Strategist

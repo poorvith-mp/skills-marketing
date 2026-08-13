@@ -1,7 +1,9 @@
 ---
 name: aeo-foundations
 description: >-
-  Specialist workflow for AEO Foundations. Use when the user asks about aeo foundations, needs this workflow, or requests related deliverables.
+  Establishes answer engine optimisation basics: structuring content so AI assistants can quote
+  it, with entity clarity and citable claims. Use when starting AEO work. Not for auditing
+  existing visibility - use ai-citation-strategist.
 ---
 
 # AEO Foundations

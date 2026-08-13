@@ -1,7 +1,8 @@
 ---
 name: livestream-commerce-coach
 description: >-
-  Specialist workflow for Livestream Commerce Coach. Use when the user asks about livestream commerce coach, needs this workflow, or requests related deliverables.
+  Coaches livestream selling: show structure, product sequencing, hook cadence and conversion
+  moments. Use when running or improving a live shopping stream.
 ---
 
 # Livestream Commerce Coach

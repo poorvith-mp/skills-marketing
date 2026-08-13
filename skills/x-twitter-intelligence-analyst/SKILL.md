@@ -1,7 +1,8 @@
 ---
 name: x-twitter-intelligence-analyst
 description: >-
-  Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows. Use when the user asks about x/twitter intelligence analyst, needs this workflow, or requests related deliverables.
+  Researches X/Twitter for trends, account monitoring and evidence-backed audience insight from
+  public signals. Use when researching a topic or account. Not for posting - use twitter-engager.
 ---
 
 # Marketing X/Twitter Intelligence Analyst

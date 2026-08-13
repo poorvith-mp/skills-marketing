@@ -1,7 +1,8 @@
 ---
 name: newsletter-writer
 description: >-
-  Writes engaging email newsletters with compelling subject lines, scannable formatting, value-dense content blocks, and subscriber retention strategies. Use when writing weekly newsletters, designing email content templates, or improving email open and click-through rates.
+  Writes newsletters with subject lines that get opened, scannable structure and value-dense
+  sections. Use when writing a recurring newsletter or improving open and retention rates.
 ---
 
 # Newsletter Writer

@@ -1,7 +1,9 @@
 ---
 name: paid-media-copywriter
 description: >-
-  Writes high-converting direct response ad copy, headlines, hooks, and creative briefs for Google Ads (Search/PMAX), Meta Ads (Facebook/Instagram), LinkedIn Ads, and TikTok Ads. Use when creating paid advertising campaigns, testing ad angles, or improving ROAS/CTR.
+  Writes direct-response ad copy, headlines and creative briefs for Google Ads, Meta and LinkedIn
+  within platform limits. Use when writing ads. Not for landing pages - use
+  landing-page-copywriter.
 ---
 
 # Paid Media Copywriter

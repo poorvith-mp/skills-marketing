@@ -1,7 +1,9 @@
 ---
 name: ai-citation-strategist
 description: >-
-  Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations. Use when the user asks about ai citation strategist, needs this workflow, or requests related deliverables.
+  Audits brand visibility in ChatGPT, Claude, Gemini and Perplexity, and diagnoses why competitors
+  get cited instead. Use when checking AI search presence. Not for groundwork - use
+  aeo-foundations.
 ---
 
 # AI Citation Strategist

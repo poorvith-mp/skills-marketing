@@ -1,7 +1,8 @@
 ---
 name: podcast-strategist
 description: >-
-  Develops podcast concepts, episode outlines, guest interview prep, audio show notes, distribution plans, and international syndication strategies. Use when launching a podcast, preparing interview questions, or writing episode show notes.
+  Develops podcast concepts, episode outlines, guest prep, show notes and distribution. Use when
+  planning or improving a show. Not for pitching as a guest - use podcast-pitch-writer.
 ---
 
 # Podcast Strategist

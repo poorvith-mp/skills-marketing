@@ -1,7 +1,8 @@
 ---
 name: wechat-official-account
 description: >-
-  Specialist workflow for WeChat Official Account. Use when the user asks about wechat official account, needs this workflow, or requests related deliverables.
+  Runs a WeChat Official Account: article formatting, publishing cadence, menu structure and
+  follower growth. Use when operating an Official Account.
 ---
 
 # WeChat Official Account

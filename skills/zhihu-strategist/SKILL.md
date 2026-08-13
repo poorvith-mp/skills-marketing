@@ -1,7 +1,8 @@
 ---
 name: zhihu-strategist
 description: >-
-  Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing. Use when the user asks about zhihu strategist, needs this workflow, or requests related deliverables.
+  Builds Zhihu credibility through question answering, long-form knowledge posts and community
+  norms. Use when establishing thought leadership on Zhihu.
 ---
 
 # Marketing Zhihu Strategist

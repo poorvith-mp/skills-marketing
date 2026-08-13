@@ -1,7 +1,9 @@
 ---
 name: cross-border-ecommerce-operator
 description: >-
-  Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization, and DTC independent site development. Use when the user asks about cross-border e-commerce specialist, needs this workflow, or requests related deliverables.
+  Runs Amazon, Shopee, Lazada, AliExpress, Temu and TikTok Shop operations plus international
+  logistics. Use when selling across borders. For China domestic platforms, use
+  china-e-commerce-operator.
 ---
 
 # Marketing Cross-Border E-Commerce Specialist

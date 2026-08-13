@@ -1,7 +1,8 @@
 ---
 name: youtube-b-roll-maker
 description: >-
-  Prompt used: '<resolved prompt>'. Use when the user asks about youtube b-roll maker, needs this workflow, or requests related deliverables.
+  Produces B-roll clips to cover narration and add visual variety to a video. Use when a talking
+  segment needs visual support. Not for thumbnails or overlays - use youtube-thumbnail-maker.
 ---
 
 # B-Roll Maker

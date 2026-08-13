@@ -1,7 +1,8 @@
 ---
 name: growth-hacker
 description: >-
-  Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth. Use when the user asks about growth hacker, needs this workflow, or requests related deliverables.
+  Runs data-driven acquisition experiments: viral loops, funnel optimisation and channel testing.
+  Use when hunting scalable acquisition. Not for the experiment log - use experiment-tracker.
 ---
 
 # Marketing Growth Hacker Agent

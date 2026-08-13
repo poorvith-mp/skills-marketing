@@ -1,7 +1,9 @@
 ---
 name: cold-email-writer
 description: >-
-  Writes personalized cold outreach email sequences with research-based hooks, value-first messaging, objection prehandling, and follow-up cadence optimization. Use when writing sales prospecting emails, designing outbound sequences, or improving cold email response rates.
+  Writes cold outreach sequences with research-based hooks, value-first messaging, objection
+  prehandling and follow-up cadence. Use when writing cold emails. Not for ICP strategy - use
+  outbound-strategist.
 ---
 
 # Cold Email Writer

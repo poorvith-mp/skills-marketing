@@ -1,7 +1,9 @@
 ---
 name: competitor-analyser
 description: >-
-  Conducts competitive intelligence analysis covering product positioning, pricing, feature gaps, marketing channels, content strategy, and market share estimation. Use when preparing competitive landscape reports, identifying market differentiation opportunities, or benchmarking against competitors.
+  Analyses competitors on positioning, pricing, feature gaps, channels and content. Use when
+  sizing up a rival or building a battlecard. Not for market trend scanning - use
+  trend-researcher.
 ---
 
 # Competitor Analyser

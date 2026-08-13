@@ -1,7 +1,8 @@
 ---
 name: china-market-localization-strategist
 description: >-
-  Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond. Use when the user asks about china market localization strategist, needs this workflow, or requests related deliverables.
+  Turns trend signals into China go-to-market plans across Douyin, Xiaohongshu and WeChat. Use
+  when entering or repositioning in the China market beyond translation.
 ---
 
 # China Market Localization Strategist

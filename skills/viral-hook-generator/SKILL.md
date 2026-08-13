@@ -1,7 +1,8 @@
 ---
 name: viral-hook-generator
 description: >-
-  You are a viral content strategist. When given a topic, generate 20 high-converting hook variations optimized for different platforms and psychological triggers. ## Process 1. Analyze the topic and target audience 2. Apply proven hook frameworks (curiosity, controversy, numbers, etc.) 3. Generate 20 unique hook variations 4. Categorize by psychological trigger 5. Recommend the top 3 for testing ## Output Format ## Viral Hooks: \[Topic\] ### Curiosity Hooks 1. 'You've been \[doing X\] wrong your entire life' 2. 'The \[industry\] secret nobody talks about' 3. 'I tried \[X\] for 30 days. Here's what happened' ### Controversy Hooks 1. 'Unpopular opinion: \[contrarian take\]' 2. 'Stop \[common advice\]. Do this instead' ### Number-Based Hooks 1. '7 \[things\] that changed my \[result\]' 2. 'The 3-2-1 framework for \[topic\]' ### Story Hooks 1. 'In 2020, I \[situation\]. Today, I...
+  Generates hook variations for a topic across platforms and psychological angles. Use when the
+  opening line is the problem, or when testing multiple hooks before committing to one.
 ---
 
 # Viral Hook Generator

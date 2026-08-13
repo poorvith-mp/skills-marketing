@@ -1,7 +1,8 @@
 ---
 name: bilibili-content-strategist
 description: >-
-  Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform. Use when the user asks about bilibili content strategist, needs this workflow, or requests related deliverables.
+  Grows Bilibili channels: UP-owner growth, danmaku culture, algorithm behaviour and branded
+  content. Use when building a presence on Bilibili or adapting content for that audience.
 ---
 
 # Marketing Bilibili Content Strategist

@@ -1,7 +1,9 @@
 ---
 name: pricing-strategist
 description: >-
-  Designs pricing models (freemium, tiered, usage-based, per-seat) with value metric analysis, competitive positioning, willingness-to-pay research, and pricing page optimization. Use when setting SaaS pricing, designing pricing tiers, or analyzing pricing elasticity.
+  Designs pricing models - freemium, tiered, usage-based, per-seat - with value metric and
+  willingness-to-pay analysis. Use when structuring packaging. Not for a single price change - use
+  pricing-analyst.
 ---
 
 # Pricing Strategist

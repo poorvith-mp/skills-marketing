@@ -1,7 +1,8 @@
 ---
 name: instantly-campaign
 description: >-
-  Specialist workflow for Instantly Campaign. Use when the user asks about instantly campaign, needs this workflow, or requests related deliverables.
+  Configures and runs Instantly cold email campaigns: inbox warmup, sequence setup, sending limits
+  and deliverability monitoring. Use when operating outreach inside Instantly.
 ---
 
 # Instantly Campaign Skill

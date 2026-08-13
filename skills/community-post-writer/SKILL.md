@@ -1,7 +1,8 @@
 ---
 name: community-post-writer
 description: >-
-  Creates engaging community forum posts, discussion prompts, and user engagement content for Discord, Reddit, Slack, and brand communities. Use when writing community announcements, sparking discussions, or managing online community content calendars.
+  Writes forum posts and discussion prompts for Discord, Reddit, Slack and brand communities. Use
+  when seeding a discussion or posting somewhere that punishes marketing tone.
 ---
 
 # Community Post Writer

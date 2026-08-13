@@ -1,7 +1,8 @@
 ---
 name: podcast-pitch-writer
 description: >-
-  Crafts podcast guest pitches with show-specific angles, topic relevance hooks, unique expertise positioning, and one-sheet media kits. Use when pitching yourself or clients as podcast guests, writing media outreach, or building podcast PR campaigns.
+  Writes podcast guest pitches with show-specific angles, topic hooks and a one-sheet media kit.
+  Use when pitching yourself as a guest. Not for running a show - use podcast-strategist.
 ---
 
 # Podcast Pitch Writer

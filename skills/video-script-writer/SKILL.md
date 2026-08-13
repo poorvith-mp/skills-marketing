@@ -1,7 +1,8 @@
 ---
 name: video-script-writer
 description: >-
-  Writes compelling scripts for YouTube videos, explainer animations, product demos, webinars, course lectures, and social video content with hook-driven openings and retention-optimized pacing. Use when scripting YouTube content, creating explainer videos, planning webinar presentations, or writing product demo scripts.
+  Writes scripts for YouTube, explainers, product demos, webinars and social video with hook-led
+  structure. Use when scripting a video. Not for editing or optimisation - use video-optimizer.
 ---
 
 # Video Script Writer

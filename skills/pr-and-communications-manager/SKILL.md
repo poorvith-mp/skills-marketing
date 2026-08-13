@@ -1,7 +1,8 @@
 ---
 name: pr-and-communications-manager
 description: >-
-  Strategic public relations and communications specialist for media relations, press releases, crisis communications, executive thought leadership, brand reputation management, and integrated communications planning. Use when the user asks about pr & communications manager, needs this workflow, or requests related deliverables.
+  Handles media relations, press releases, crisis communications and executive thought leadership.
+  Use when pitching press, announcing news, or responding to a reputational issue.
 ---
 
 # 📣 PR & Communications Manager

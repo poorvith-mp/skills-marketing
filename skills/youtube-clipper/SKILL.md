@@ -1,7 +1,8 @@
 ---
 name: youtube-clipper
 description: >-
-  1. <Hook> — 0:42 · score 87 https://higgsfield.../clip/. Use when the user asks about youtube clipper, needs this workflow, or requests related deliverables.
+  Finds the highest-performing moments in a long video and cuts them into short clips with hooks
+  and timestamps. Use when repurposing long-form video into shorts.
 ---
 
 # YouTube Clipper

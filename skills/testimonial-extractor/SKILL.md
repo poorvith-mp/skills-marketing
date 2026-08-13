@@ -1,7 +1,8 @@
 ---
 name: testimonial-extractor
 description: >-
-  Extracts, formats, and categorizes customer testimonials from reviews, surveys, and interviews into usable marketing assets organized by use case and buyer persona. Use when building social proof libraries, organizing customer quotes for sales collateral, or creating case study source material.
+  Pulls testimonials out of reviews, surveys and interviews and sorts them by use case and
+  objection handled. Use when building social proof from existing customer feedback.
 ---
 
 # Testimonial Extractor

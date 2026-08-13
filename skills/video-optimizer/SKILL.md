@@ -1,7 +1,8 @@
 ---
 name: video-optimizer
 description: >-
-  Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication. Use when the user asks about video optimization specialist, needs this workflow, or requests related deliverables.
+  Optimises YouTube performance: retention, chaptering, titles, thumbnails and cross-platform
+  distribution. Use when videos underperform. Not for the script - use video-script-writer.
 ---
 
 # Marketing Video Optimization Specialist Agent

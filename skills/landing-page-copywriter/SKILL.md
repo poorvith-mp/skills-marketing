@@ -1,7 +1,9 @@
 ---
 name: landing-page-copywriter
 description: >-
-  Writes high-converting landing page copy with above-the-fold hooks, benefit-driven body sections, social proof integration, and friction-reducing CTAs. Use when creating SaaS landing pages, product launch pages, or lead generation opt-in pages.
+  Writes landing page copy: above-the-fold hook, benefit-led body, social proof and
+  friction-reducing CTAs. Use when writing a landing page. Not for ad copy - use
+  paid-media-copywriter.
 ---
 
 # Landing Page Copywriter

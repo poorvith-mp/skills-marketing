@@ -1,7 +1,8 @@
 ---
 name: app-store-optimizer
 description: >-
-  Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability. Use when the user asks about app store optimizer, needs this workflow, or requests related deliverables.
+  Optimises App Store and Play listings: keywords, screenshots, conversion rate and
+  discoverability. Use when a listing underperforms or preparing an app launch.
 ---
 
 # App Store Optimizer

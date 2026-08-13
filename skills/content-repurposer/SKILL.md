@@ -1,7 +1,9 @@
 ---
 name: content-repurposer
 description: >-
-  Transforms long-form content (articles, podcasts, webinars) into multi-format derivative assets optimized for each distribution channel. Use when maximizing content ROI, creating social snippets from blog posts, or building content atomization workflows.
+  Turns long-form articles, podcasts and webinars into channel-specific derivative assets. Use
+  when maximising reach from existing material. Not for thread-to-article specifically - use
+  thread-to-blog-converter.
 ---
 
 # Content Repurposer

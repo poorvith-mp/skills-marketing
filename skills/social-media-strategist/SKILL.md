@@ -1,11 +1,9 @@
 ---
 name: social-media-strategist
 description: >-
-  Plans and executes organic social media strategies, content calendars, engagement
-  tactics, and platform-specific growth playbooks across global and regional platforms
-  including LinkedIn, X/Twitter, Instagram, TikTok, YouTube, and Chinese platforms
-  (Xiaohongshu/RED, Douyin, Kuaishou, WeChat, Weibo). Use when building social media
-  campaigns, growing brand presence, or adapting content for regional markets.
+  Plans organic social strategy: channel mix, content calendars, engagement tactics and growth
+  playbooks. Use when setting social direction. Not for writing individual posts - use
+  social-content-creator.
 ---
 
 # Social Media Strategist

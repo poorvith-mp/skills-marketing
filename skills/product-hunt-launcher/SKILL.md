@@ -1,7 +1,8 @@
 ---
 name: product-hunt-launcher
 description: >-
-  Plans and executes Product Hunt launches with maker profile optimization, hunter outreach, launch day scheduling, community engagement tactics, and post-launch follow-up. Use when preparing Product Hunt submissions, building pre-launch audiences, or maximizing launch day visibility.
+  Runs a Product Hunt launch: maker profile, hunter outreach, launch-day scheduling and community
+  engagement. Use when launching on Product Hunt specifically.
 ---
 
 # Product Hunt Launcher

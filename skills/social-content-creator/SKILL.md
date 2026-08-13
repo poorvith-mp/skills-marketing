@@ -1,7 +1,8 @@
 ---
 name: social-content-creator
 description: >-
-  Creates engaging, viral-optimized social media content, thought leadership posts, threads, and carousels for LinkedIn, X (Twitter), Threads, and Instagram. Use when drafting social posts, building personal brand presence, or repurposing long-form content into social formats.
+  Writes posts, threads and carousels for LinkedIn, X, Threads and Instagram. Use when creating
+  individual social posts. Not for the overall plan - use social-media-strategist.
 ---
 
 # Social Content Creator

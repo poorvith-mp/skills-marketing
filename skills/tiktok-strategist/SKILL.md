@@ -1,7 +1,8 @@
 ---
 name: tiktok-strategist
 description: >-
-  Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth. Use when the user asks about tiktok strategist, needs this workflow, or requests related deliverables.
+  Builds TikTok presence: hook patterns, algorithm behaviour, trend participation and community
+  norms. Use when growing on TikTok or diagnosing why videos stall.
 ---
 
 # Marketing TikTok Strategist

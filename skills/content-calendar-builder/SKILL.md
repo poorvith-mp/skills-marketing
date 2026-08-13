@@ -1,7 +1,9 @@
 ---
 name: content-calendar-builder
 description: >-
-  Builds strategic content calendars with theme mapping, channel distribution, publishing cadences, and seasonal campaign integration. Use when planning quarterly content strategies, coordinating multi-channel publishing, or organizing editorial workflows.
+  Builds content calendars with theme mapping, channel distribution, cadence and seasonal
+  campaigns. Use when planning a publishing schedule. Not for a single launch week - use
+  launch-week-planner.
 ---
 
 # Content Calendar Builder

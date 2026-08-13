@@ -1,7 +1,8 @@
 ---
 name: conversion-rate-optimizer
 description: >-
-  Analyzes conversion funnels, designs A/B test hypotheses, optimizes landing pages, and implements behavioral triggers to improve conversion rates. Use when diagnosing funnel drop-offs, designing CRO experiments, or optimizing checkout and signup flows.
+  Analyses conversion funnels, forms A/B hypotheses and optimises landing pages and behavioural
+  triggers. Use when a funnel leaks. Not for the statistics of the test - use a-b-test-designer.
 ---
 
 # Conversion Rate Optimizer

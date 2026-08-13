@@ -1,7 +1,9 @@
 ---
 name: search-engine-optimizer
 description: >-
-  Executes on-page, technical, and off-page search engine optimization (SEO) audits, keyword clustering, structured data schema generation, and regional search strategies (Google, Bing, Baidu), and AI search optimization (Google SGE/AI Overviews, Perplexity, Bing Copilot). Use when auditing website SEO, optimizing content rankings, or diagnosing indexing issues.
+  Runs on-page, technical and off-page SEO: audits, keyword clustering and structured data. Use
+  when diagnosing rankings or fixing technical SEO. Not for writing the article - use
+  seo-article-writer.
 ---
 
 # Search Engine Optimizer (SEO)

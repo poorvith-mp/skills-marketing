@@ -1,7 +1,8 @@
 ---
 name: email-strategist
 description: >-
-  Specialist workflow for Email Strategist. Use when the user asks about email strategist, needs this workflow, or requests related deliverables.
+  Designs lifecycle email programmes: segmentation, automation flows, cadence and deliverability.
+  Use when planning an email programme. Not for cold outreach - use cold-email-writer.
 ---
 
 # Email Strategist

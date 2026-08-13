@@ -1,7 +1,9 @@
 ---
 name: multi-platform-publisher
 description: >-
-  Specialist workflow for Multi-Platform Publisher. Use when the user asks about multi-platform publisher, needs this workflow, or requests related deliverables.
+  Adapts and schedules one piece of content across multiple platforms, respecting each one's
+  format and norms. Use when publishing the same message everywhere without it reading as
+  copy-paste.
 ---
 
 # Multi-Platform Publisher

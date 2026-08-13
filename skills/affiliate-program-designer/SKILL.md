@@ -1,7 +1,9 @@
 ---
 name: affiliate-program-designer
 description: >-
-  Architects affiliate and referral programs with commission structures, partner tier systems, tracking attribution, and fraud prevention mechanisms. Use when launching affiliate programs, designing partner incentive structures, or building referral growth loops.
+  Designs affiliate and referral programmes: commission structure, partner tiers, attribution
+  tracking and fraud prevention. Use when launching a referral programme or fixing one that
+  attracts the wrong partners.
 ---
 
 # Affiliate Program Designer

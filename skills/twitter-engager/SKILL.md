@@ -1,7 +1,8 @@
 ---
 name: twitter-engager
 description: >-
-  Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation. Use when the user asks about twitter engager, needs this workflow, or requests related deliverables.
+  Builds X/Twitter presence through real-time engagement, replies and thought leadership. Use when
+  growing an account by participating. Not for research - use x-twitter-intelligence-analyst.
 ---
 
 # Marketing Twitter Engager
