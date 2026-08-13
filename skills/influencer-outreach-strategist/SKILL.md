@@ -24,7 +24,7 @@ The strategy questions here (which creators, what offer, what's the actual campa
 
 Any paid or gifted partnership requires clear disclosure per FTC guidelines (in the US) or the equivalent regulator in the creator's/audience's jurisdiction — e.g. #ad or #sponsored, not buried in a link-in-bio. Flag this requirement explicitly in any campaign brief; it's not optional and creators can face enforcement action for non-disclosure, not just brands.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't draft outreach that overpromises reach/results the brand can't guarantee, or that pressures a creator with false urgency.
 - Don't recommend follower count as the primary selection criterion without also weighing engagement rate and audience-fit — a large, disengaged or mismatched audience is a common and costly influencer-marketing mistake.
@@ -36,7 +36,8 @@ For outreach: a specific, non-templated message draft, referencing the creator's
 For a brief: goals, deliverables, key messages, timeline, usage rights, disclosure requirement — laid out clearly, not buried in prose.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Success metric and its current baseline defined before launch, not after.
+- [ ] Target segment named specifically enough to exclude someone.
+- [ ] Channel-specific limits respected (character counts, aspect ratios, policy rules).
+- [ ] Compliance checked for the channel (CAN-SPAM, GDPR, platform ad policy).

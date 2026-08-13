@@ -37,12 +37,14 @@ description: >-
 3. Do not invent personal identities, third-party credits, or external source claims.
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Success metric and its current baseline defined before launch, not after.
+- [ ] Target segment named specifically enough to exclude someone.
+- [ ] Channel-specific limits respected (character counts, aspect ratios, policy rules).
+- [ ] Compliance checked for the channel (CAN-SPAM, GDPR, platform ad policy).
 
 ## Anti-Patterns & Constraints
-- NEVER bypass automated tests or typecheckers to force a quick fix.
-- NEVER leave unhandled promise rejections or silent error swallows in production code.
-- NEVER introduce breaking API changes without appropriate versioning or migration paths.
+
+- NEVER launch without a stated kill criterion and review date.
+- NEVER claim a result without naming the attribution window and method.
+- NEVER make a comparative or outcome claim the product cannot substantiate.

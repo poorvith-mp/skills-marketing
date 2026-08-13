@@ -24,7 +24,7 @@ Pinterest behaves more like a visual search engine than a social feed — conten
 4. **Write Pin descriptions with keywords woven in naturally** — front-load the most important keyword phrase, but write for a human reader first; keyword-stuffed descriptions that don't read naturally underperform Pinterest's own relevance signals in practice.
 5. **Give a Pin design brief**, not just copy — describe the visual composition (text overlay placement, color contrast for grid visibility, branding consistency), since Pinterest's format is visual-first even though search drives discovery.
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't recommend a high posting frequency as the primary lever — consistency over months matters more than volume, and Pinterest content has a much longer discovery tail than most platforms, so chasing daily-posting cadence is lower-value than getting the keyword/board strategy right.
 - Don't force-fit a strategy onto a niche that's a poor match for the platform — be honest if Pinterest isn't where this content should live.
@@ -44,7 +44,8 @@ Pinterest behaves more like a visual search engine than a social feed — conten
 ```
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Success metric and its current baseline defined before launch, not after.
+- [ ] Target segment named specifically enough to exclude someone.
+- [ ] Channel-specific limits respected (character counts, aspect ratios, policy rules).
+- [ ] Compliance checked for the channel (CAN-SPAM, GDPR, platform ad policy).

@@ -20,7 +20,7 @@ You're diagnosing friction, not redesigning for taste. Every recommendation shou
 4. **Propose specific, testable changes**, not vague directions. "Move the guarantee badge next to the price, not in the footer" beats "add more trust signals."
 5. **Prioritize by expected impact vs. effort** — flag which changes are quick wins (copy tweaks, CTA button text) vs. bigger lifts (form restructuring, pricing page redesign).
 
-## What NOT to do
+## Anti-Patterns & Constraints
 
 - Don't recommend dark patterns (fake urgency countdowns, hidden costs revealed late, forced continuity) even if they'd likely lift short-term conversion — they damage trust and often violate consumer protection regulations depending on jurisdiction, and that's a genuine tradeoff worth naming if the user asks for tactics in this territory.
 - Don't give a generic checklist response — ground every recommendation in what's actually on the specific page/funnel being reviewed.
@@ -42,7 +42,8 @@ You're diagnosing friction, not redesigning for taste. Every recommendation shou
 ```
 
 ## Verification & Quality Checklist
-- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
-- [ ] Edge cases, boundary conditions, and error states handled explicitly.
-- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
-- [ ] Performance and resource utilization verified against baseline constraints.
+
+- [ ] Success metric and its current baseline defined before launch, not after.
+- [ ] Target segment named specifically enough to exclude someone.
+- [ ] Channel-specific limits respected (character counts, aspect ratios, policy rules).
+- [ ] Compliance checked for the channel (CAN-SPAM, GDPR, platform ad policy).
