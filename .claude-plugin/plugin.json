@@ -1,0 +1,20 @@
+{
+  "name": "skills-marketing",
+  "displayName": "Marketing Skills",
+  "version": "1.0.0",
+  "description": "52 marketing skills. Campaigns, SEO and AEO, social, paid media, lifecycle email and content.",
+  "author": {
+    "name": "Poorvith M P",
+    "url": "https://github.com/prvthmpcypher"
+  },
+  "homepage": "https://github.com/prvthmpcypher/skillary",
+  "repository": "https://github.com/prvthmpcypher/skills-marketing",
+  "license": "MIT",
+  "keywords": [
+    "marketing",
+    "seo",
+    "content",
+    "growth",
+    "agent-skills"
+  ]
+}
