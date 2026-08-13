@@ -1,8 +1,9 @@
 ---
 name: youtube-clipper
 description: >-
-  Finds the highest-performing moments in a long video and cuts them into short clips with hooks
-  and timestamps. Use when repurposing long-form video into shorts.
+  Finds the strongest moments in a long video and cuts them into short clips with hooks and
+  timestamps. Use when repurposing long-form video into shorts. For original B-roll, use
+  youtube-b-roll-maker.
 ---
 
 # YouTube Clipper
