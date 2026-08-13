@@ -5,24 +5,23 @@ description: >-
   format and norms. Use when publishing the same message everywhere without it reading as
   copy-paste.
 ---
-
 # Multi-Platform Publisher
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Publish one message across platforms without it reading as copy-paste.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Multi-Platform Publisher workflow; avoid generic filler.
+## Process
+1. **Fix the core message first** — one idea, stated once, that every version carries.
+2. **Rewrite per platform rather than reformat.** Length, opening convention, tone and what counts as self-promotion differ enough that the same text underperforms everywhere.
+3. **Respect each platform's actual constraints**: character limits, link handling, image ratios, hashtag norms and what the algorithm suppresses.
+4. **Adapt the hook to the feed.** The first line does different work on LinkedIn than on X.
+5. **Stagger publication** rather than posting simultaneously, so cross-posting is not obvious and each platform gets a fresh window.
+6. **Track per platform separately.** Aggregate engagement hides which adaptation worked.
 
-
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Core message stated once
+- Per-platform adaptation with the constraint that drove each change
+- Publishing schedule with stagger
+- Per-platform performance comparison
 
 ## Verification & Quality Checklist
 

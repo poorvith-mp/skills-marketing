@@ -5,24 +5,26 @@ description: >-
   it, with entity clarity and citable claims. Use when starting AEO work. Not for auditing
   existing visibility - use ai-citation-strategist.
 ---
-
 # AEO Foundations
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Structure content so AI assistants can find, trust and quote it.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the AEO Foundations workflow; avoid generic filler.
+## Process
+1. **Answer the question in the first paragraph.** Assistants extract direct answers; content that builds to a conclusion over 800 words does not get quoted.
+2. **Make claims self-contained.** A sentence that requires the previous three to make sense cannot be lifted as a citation.
+3. **Attach evidence to claims** — a number, a date, a source. Unsupported assertions are paraphrased away; specific ones get cited.
+4. **Be explicit about entities.** Name the product, company and category rather than relying on pronouns and context the extractor will not carry.
+5. **Use structure that survives extraction**: real headings phrased as questions, short paragraphs, lists where the content is genuinely a list.
+6. **Keep facts current and dated.** Assistants weight recency, and a stale figure is worse than none.
+7. **Make the page machine-reachable** — crawlable, not JavaScript-gated, with schema markup where it applies.
 
+For auditing existing visibility across assistants, use `ai-citation-strategist`.
 
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Question-led structure with self-contained answers
+- Claims paired with evidence and dates
+- Entity naming audit
+- Technical accessibility check
 
 ## Verification & Quality Checklist
 

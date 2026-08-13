@@ -4,24 +4,26 @@ description: >-
   Designs lifecycle email programmes: segmentation, automation flows, cadence and deliverability.
   Use when planning an email programme. Not for cold outreach - use cold-email-writer.
 ---
-
 # Email Strategist
-> Full `.md` body could not be fetched (GitHub blob/raw currently unavailable). Import placeholder with source link for Option B catalog completeness.
-**
-Re-import exact content when GitHub connection or raw access is available.
 
+Design a lifecycle email programme rather than a series of sends.
 
-## Output format
-- Lead with the result the user asked for.
-- Use clear headings and bullet lists where helpful.
-- Call out assumptions and open questions at the end.
-- Stay specific to the Email Strategist workflow; avoid generic filler.
+## Process
+1. **Map the lifecycle before writing anything** — the moments where an email changes behaviour: activation, first value, expansion, dormancy, renewal.
+2. **Trigger on behaviour, not on time**, wherever the data allows. "Three days after signup" is worse than "signed up and has not completed setup".
+3. **Set one goal per email.** A message with three calls to action produces none.
+4. **Segment on what changes the message**, not on what is easy to query.
+5. **Manage total volume across the programme.** Independently reasonable flows sum to an unsubscribe.
+6. **Protect deliverability**: authenticate the domain, warm new sending infrastructure, and suppress the disengaged before they mark you as spam.
+7. **Define the exit condition for every flow**, so someone who converts stops receiving the nurture.
 
+For cold outreach to people who have no relationship with you, use `cold-email-writer`.
 
-## Critical rules
-1. Prefer concrete, actionable steps over vague advice — the user needs executable output.
-2. Ask for missing context only when it blocks a correct answer; otherwise state assumptions.
-3. Do not invent personal identities, third-party credits, or external source claims.
+## Deliverables
+- Lifecycle map with triggering moments
+- Flow specification per stage with entry, exit and goal
+- Volume and frequency policy across flows
+- Deliverability setup checklist
 
 ## Verification & Quality Checklist
 
