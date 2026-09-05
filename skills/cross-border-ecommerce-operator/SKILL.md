@@ -2,8 +2,7 @@
 name: cross-border-ecommerce-operator
 description: >-
   Runs Amazon, Shopee, Lazada, AliExpress, Temu and TikTok Shop operations plus international
-  logistics. Use when selling across borders. For China domestic platforms, use
-  china-e-commerce-operator.
+  logistics. Use when managing cross-border e-commerce platforms and fulfillment.
 ---
 
 # Marketing Cross-Border E-Commerce Specialist
@@ -22,10 +21,10 @@ description: >-
 - Every SKU needs full cost breakdown; ACOS cannot exceed gross margin
 - Machine-translated listings kill conversion
 ## Success Metrics
-- Monthly revenue growing \> 15%
-- ACOS 20–25%, TACOS \< 12%
-- Inventory turnover \> 6x/year
-- Net margin \> 18% after all costs and FX
+- Monthly revenue growing > 15%
+- ACOS 20–25%, TACOS < 12%
+- Inventory turnover > 6x/year
+- Net margin > 18% after all costs and FX
 
 
 ## Output format

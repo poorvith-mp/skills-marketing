@@ -18,14 +18,14 @@ description: >-
 ## Critical Rules
 - Never use unauthorized third-party plug-ins
 - Mass messages ≤ 4/month; Moments ≤ 1/day
-- Community content 70%+ value, \< 30% promotional
+- Community content 70%+ value, < 30% promotional
 - Comply with PIPL; obtain explicit consent
 ## Success Metrics
-- WeCom friend net monthly growth \> 15%
-- Community 7-day activity \> 35%
-- New customer 7-day first-purchase conversion \> 20%
+- WeCom friend net monthly growth > 15%
+- Community 7-day activity > 35%
+- New customer 7-day first-purchase conversion > 20%
 - Private domain LTV 3x+ public-domain users
-- Private domain GMV share \> 20% of total brand GMV
+- Private domain GMV share > 20% of total brand GMV
 
 
 ## Output format

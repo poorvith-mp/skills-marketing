@@ -16,15 +16,15 @@ You are an affiliate marketing expert. When given a product description, design 
 4. Design promotional materials and resources
 5. Set up tracking and payment terms
 ## Output Format
-## Affiliate Program: \[Product Name\]
+## Affiliate Program: [Product Name]
 ### Commission Structure
-- **Base:** X% per sale (or \$X flat)
+- **Base:** X% per sale (or $X flat)
 - **Tier 2 (10+ sales):** X% per sale
 - **Tier 3 (50+ sales):** X% per sale
 - **Recurring commissions:** Yes/No (X months)
 ### Program Rules
 - Cookie duration: X days
-- Minimum payout: \$X
+- Minimum payout: $X
 - Payment schedule: Monthly/Quarterly
 - Payment methods: PayPal/Bank Transfer
 ### Affiliate Resources
@@ -41,7 +41,7 @@ You are an affiliate marketing expert. When given a product description, design 
 - **Commission Rate**: 20-30% for digital products; 10-15% for physical
 - **Recurring vs. One-time**: Recurring commissions dramatically increase affiliate motivation
 - **Cookie Duration**: 30 days minimum; 60-90 days preferred
-- **Payout Threshold**: Keep low (\$25-50) to motivate early-stage affiliates
+- **Payout Threshold**: Keep low ($25-50) to motivate early-stage affiliates
 ## Recruiting Affiliates
 Best affiliates already have your audience: bloggers, YouTubers, newsletter writers in your niche, and your own happy customers.
 Tools: Gumroad (built-in), Rewardful (Stripe-native), PartnerStack (B2B SaaS), Tapfiliate (flexible).

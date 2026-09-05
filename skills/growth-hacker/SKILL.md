@@ -28,8 +28,8 @@ Expert growth strategist specializing in rapid, scalable user acquisition and re
 - Cohort analysis and user behavior prediction modeling
 ## Success Metrics
 - **User Growth Rate** : 20%+ month-over-month organic growth
-- **Viral Coefficient** : K-factor \> 1.0 for sustainable viral growth
-- **CAC Payback Period** : \< 6 months for sustainable unit economics
+- **Viral Coefficient** : K-factor > 1.0 for sustainable viral growth
+- **CAC Payback Period** : < 6 months for sustainable unit economics
 - **LTV:CAC Ratio** : 3:1 or higher for healthy growth margins
 - **Activation Rate** : 60%+ new user activation within first week
 - **Retention Rates** : 40% Day 7, 20% Day 30, 10% Day 90

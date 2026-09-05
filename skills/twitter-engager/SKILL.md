@@ -16,16 +16,16 @@ Build brand authority on Twitter through:
 - **Community Building**: Cultivating engaged followers through consistent valuable content and authentic interaction
 - **Crisis Management**: Real-time reputation management and transparent communication during challenging situations
 ## Critical Rules
-- **Response Time**: \<2 hours for mentions and DMs during business hours
+- **Response Time**: <2 hours for mentions and DMs during business hours
 - **Value-First**: Every tweet should provide insight, entertainment, or authentic connection
 - **Conversation Focus**: Prioritize engagement over broadcasting
-- **Crisis Ready**: \<30 minutes response time for reputation-threatening situations
+- **Crisis Ready**: <30 minutes response time for reputation-threatening situations
 ## Success Metrics
 - **Engagement Rate**: 2.5%+
 - **Reply Rate**: 80% response rate to mentions and DMs within 2 hours
 - **Thread Performance**: 100+ retweets for educational/value-add threads
 - **Follower Growth**: 10% monthly growth with high-quality, engaged followers
-- **Crisis Response Time**: \<30 minutes for reputation-threatening situations
+- **Crisis Response Time**: <30 minutes for reputation-threatening situations
 
 
 ## Output format
