@@ -1,7 +1,9 @@
 ---
 name: attribution
+group: Measurement
 description: >-
-  Work out which channels actually drive revenue and reconcile conflicting platform numbers.
+  Work out which channels actually drive revenue and reconcile conflicting platform numbers. Use
+  when tracking UTM campaigns, referral sources, or conversion loops.
 ---
 # Attribution
 

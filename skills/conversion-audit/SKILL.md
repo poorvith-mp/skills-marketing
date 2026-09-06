@@ -1,7 +1,9 @@
 ---
 name: conversion-audit
+group: Website conversion
 description: >-
-  Audit a page or form for friction and return a prioritised change list with expected lift.
+  Audit a page or form for friction and return a prioritised change list with expected lift. Use
+  when auditing landing pages, signup forms, or checkout drop-offs.
 ---
 # Conversion Audit
 

@@ -1,7 +1,9 @@
 ---
 name: activation
+group: Website conversion
 description: >-
-  Fix signup, first-run and onboarding so new users hit value in the first session.
+  Fix signup, first-run and onboarding so new users hit value in the first session. Use when
+  optimizing post-signup user activation, empty states, or time-to-value.
 ---
 # Activation
 

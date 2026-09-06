@@ -1,7 +1,9 @@
 ---
 name: lead-magnets
+group: Assets
 description: >-
-  Pick, produce and gate the download or template that captures emails.
+  Pick, produce and gate the download or template that captures emails. Use when creating
+  downloadable guides, templates, or email opt-ins.
 ---
 # Lead Magnets
 

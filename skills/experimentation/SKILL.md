@@ -1,7 +1,9 @@
 ---
 name: experimentation
+group: Measurement
 description: >-
-  Design A/B tests, set sample size and duration, read results honestly, and run the backlog.
+  Design A/B tests, set sample size and duration, read results honestly, and run the backlog. Use
+  when running A/B split tests, sample sizing, or conversion experiments.
 ---
 # Experimentation
 

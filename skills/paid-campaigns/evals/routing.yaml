@@ -1,7 +1,16 @@
 should_fire:
-  - "help with paid campaigns"
-  - "structure, target, bid and optimise campaigns across google, meta, linkedin and x."
-  - "run paid-campaigns workflow"
+  - 'set up a high-intent Google Search ad campaign targeting competitor keywords'
+  - 'structure a B2B LinkedIn Ads campaign targeting VP of Engineering titles'
+  - 'optimize our Meta ad account structure to reduce Customer Acquisition Cost'
+  - 'plan budget allocation across Google Search, LinkedIn, and YouTube ads'
+  - 'how should we structure negative keywords to stop burning ad spend on irrelevant queries'
+  - 'design a retargeting campaign for website visitors who viewed our pricing page'
+  - 'evaluate why our Google Ads cost-per-click doubled over the past month'
+  - 'set up conversion tracking and offline conversion imports for Google Ads'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write high-converting ad copy and design visual ad graphics'
+    expect: 'ad-creative'
+  - prompt: 'track multi-touch attribution and UTM parameter performance'
+    expect: 'attribution'
+  - prompt: 'calculate overall company CAC and payback periods'
+    expect: 'unit-economics'

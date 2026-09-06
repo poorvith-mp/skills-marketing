@@ -1,7 +1,16 @@
 should_fire:
-  - "help with experimentation"
-  - "design a/b tests, set sample size and duration, read results honestly, and run the backlog."
-  - "run experimentation workflow"
+  - 'design an A/B test to evaluate a new headline against our control'
+  - 'calculate the required sample size and test duration for statistical significance'
+  - 'formulate a structured experiment hypothesis using the ICE prioritization framework'
+  - 'interpret A/B test results to verify whether our 12% conversion lift is statistically valid'
+  - 'set up split testing using LaunchDarkly, PostHog, or Google Optimize alternatives'
+  - 'avoid common experimentation pitfalls like peeking at data before sample size is met'
+  - 'build a growth experiment backlog prioritized by confidence and impact'
+  - 'determine if we have enough monthly traffic to run a multi-armed bandit test'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit landing pages and identify conversion friction points'
+    expect: 'conversion-audit'
+  - prompt: 'configure core event tracking in Google Analytics 4'
+    expect: 'analytics-setup'
+  - prompt: 'write new conversion copy for our website hero section'
+    expect: 'landing-copy'

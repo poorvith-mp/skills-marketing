@@ -1,7 +1,16 @@
 should_fire:
-  - "help with retention"
-  - "cut churn with cancel flows, save offers, dunning, exit surveys and account health signals."
-  - "run retention workflow"
+  - 'analyze our monthly cohort retention curves to identify where churn stabilizes'
+  - 'why is our 30-day user churn rate increasing among self-serve signups'
+  - 'build a churn prediction model using product usage frequency signals'
+  - 'design an automated cancellation survey to capture why customers cancel'
+  - 'implement a pause subscription option to reduce hard cancellations'
+  - 'identify habits and core features correlated with long-term customer retention'
+  - 'build an automated retention workflow alerting customer success to at-risk accounts'
+  - 'how do we increase 90-day retention for our developer SaaS product'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'handle account management and contract renewals for enterprise accounts'
+    expect: 'renewals'
+  - prompt: 'optimize user activation during their first session'
+    expect: 'activation'
+  - prompt: 'calculate monthly Customer Acquisition Cost and LTV'
+    expect: 'unit-economics'

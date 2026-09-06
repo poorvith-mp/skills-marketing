@@ -1,7 +1,16 @@
 should_fire:
-  - "help with partnerships"
-  - "find and structure creator, sponsor and co-marketing deals"
-  - "run partnerships workflow"
+  - 'structure a co-marketing partnership with a non-competing developer platform'
+  - 'plan a joint webinar and shared content campaign with an integration partner'
+  - 'how do we approach an ecosystem partner to get featured in their app marketplace'
+  - 'draft a partnership agreement outlining shared promotional commitments'
+  - 'coordinate a joint product integration announcement across both companies'' channels'
+  - 'build a developer partner program to encourage third-party tool integrations'
+  - 'create co-branded marketing assets for an upcoming ecosystem campaign'
+  - 'evaluate strategic partnership opportunities based on target audience overlap'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'launch a customer referral or affiliate revenue-share program'
+    expect: 'referrals'
+  - prompt: 'negotiate corporate vendor procurement and supplier contracts'
+    expect: 'vendor-selection'
+  - prompt: 'pitch journalists for press and earned media articles'
+    expect: 'public-relations'

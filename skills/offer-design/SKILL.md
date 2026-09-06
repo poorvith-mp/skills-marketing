@@ -1,7 +1,9 @@
 ---
 name: offer-design
+group: Offer and money
 description: >-
-  Construct what you sell: value stack, bonuses, guarantee, urgency, naming and payment terms.
+  Construct what you sell: value stack, bonuses, guarantee, urgency, naming and payment terms. Use
+  when structuring high-converting offers, bonuses, or guarantees.
 ---
 # Offer Design
 

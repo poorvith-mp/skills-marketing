@@ -1,7 +1,9 @@
 ---
 name: revops
+group: Sales handoff
 description: >-
-  Wire lead scoring, routing, pipeline stages and the marketing-to-sales handoff in the CRM.
+  Wire lead scoring, routing, pipeline stages and the marketing-to-sales handoff in the CRM. Use
+  when optimizing CRM pipelines, lead routing, or sales operations.
 ---
 # Revops
 

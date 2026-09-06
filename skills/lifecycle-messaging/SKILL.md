@@ -1,7 +1,9 @@
 ---
 name: lifecycle-messaging
+group: Lifecycle
 description: >-
-  Design automated email, SMS and push flows: welcome, nurture, cart, win-back and broadcast.
+  Design automated email, SMS and push flows: welcome, nurture, cart, win-back and broadcast. Use
+  when writing onboarding drip emails, feature updates, or re-engagement.
 ---
 # Lifecycle Messaging
 

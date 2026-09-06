@@ -1,7 +1,16 @@
 should_fire:
-  - "help with landing copy"
-  - "write or rewrite page copy"
-  - "run landing-copy workflow"
+  - 'write compelling landing page copy for our developer automation tool'
+  - 'draft a punchy headline, subhead, and primary call-to-action for our hero section'
+  - 'rewrite our features section copy to emphasize customer benefits over specs'
+  - 'write persuasive social proof callouts and testimonial blurbs for our homepage'
+  - 'improve our above-the-fold value proposition to reduce bounce rates'
+  - 'write copy for an alternative comparison landing page targeting a competitor'
+  - 'craft compelling CTA button text and microcopy for our signup button'
+  - 'rewrite our B2B SaaS landing page to speak directly to engineering managers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit landing page analytics and form abandonment rates'
+    expect: 'conversion-audit'
+  - prompt: 'write an informative long-form blog post about our industry'
+    expect: 'article-writing'
+  - prompt: 'design the visual layout and UI components in Figma'
+    expect: 'ui-design'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with competitive intel"
-  - "turn competitor urls into structured dossiers, then into battlecards and vs/alternative pages."
-  - "run competitive-intel workflow"
+  - 'conduct a competitive teardown of our top 3 competitors'' landing pages'
+  - 'analyze how competitors in our space are pricing and packaging their plans'
+  - 'map the competitive landscape and identify gaps in existing solutions'
+  - 'create a competitor battlecard showing strengths, weaknesses, and objections'
+  - 'compare our product feature set against the market leader feature by feature'
+  - 'track recent messaging and positioning shifts by our primary competitor'
+  - 'teardown competitor onboarding flows to identify points of friction'
+  - 'what advantages do we have over open-source alternatives in our category'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write an SEO competitor comparison page (Product vs Competitor)'
+    expect: 'article-writing'
+  - prompt: 'define our core differentiators and value proposition'
+    expect: 'positioning'
+  - prompt: 'conduct customer interviews to find out why customers buy'
+    expect: 'customer-research'

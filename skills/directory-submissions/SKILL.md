@@ -1,7 +1,9 @@
 ---
 name: directory-submissions
+group: Distribution
 description: >-
-  Submit to startup, SaaS, AI and MCP directories for backlinks and discovery, tracked.
+  Submit to startup, SaaS, AI and MCP directories for backlinks and discovery, tracked. Use when
+  listing products on SaaSHub, AlternativeTo, or free directories.
 ---
 # Directory Submissions
 

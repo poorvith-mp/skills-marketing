@@ -1,7 +1,16 @@
 should_fire:
-  - "help with visual assets"
-  - "generate on-brand images"
-  - "run visual-assets workflow"
+  - 'design an Open Graph (OG) social card image for our blog posts and homepage'
+  - 'create a clean, modern visual graphic illustrating our product architecture'
+  - 'produce high-contrast social media image assets for our upcoming feature launch'
+  - 'design an engaging hero image concept for our website redesign'
+  - 'generate custom diagram visuals showing how our data pipeline works'
+  - 'create branded product mockup graphics showcasing our desktop and mobile UI'
+  - 'design promotional banners for our Product Hunt gallery carousel'
+  - 'optimize our marketing image assets for fast loading and retina displays'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write detailed AI prompts for Midjourney, Flux, or DALL-E'
+    expect: 'image-prompts'
+  - prompt: 'design application interface UI components and design systems'
+    expect: 'ui-design'
+  - prompt: 'produce and edit promotional video tutorials'
+    expect: 'video-production'

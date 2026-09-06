@@ -1,7 +1,16 @@
 should_fire:
-  - "help with social listening"
-  - "monitor mentions, competitors and buying-intent threads, and surface where to reply today."
-  - "run social-listening workflow"
+  - 'set up keyword tracking on Reddit and Twitter/X for people asking for alternatives'
+  - 'monitor social media channels for complaints about our primary competitor''s outage'
+  - 'track sentiment and discussions around our brand across developer forums'
+  - 'find active discussions where users are asking for recommendations in our category'
+  - 'identify trending topics and debates within our developer niche this week'
+  - 'alert our marketing team when an influencer mentions our open-source project'
+  - 'monitor industry subreddits for relevant user questions we can genuinely help answer'
+  - 'analyze social sentiment shifts following our latest product announcement'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'draft and publish tweets or LinkedIn posts'
+    expect: 'social-content'
+  - prompt: 'conduct in-depth customer interviews and transcript analysis'
+    expect: 'customer-research'
+  - prompt: 'pitch journalists for press and earned media coverage'
+    expect: 'public-relations'

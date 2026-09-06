@@ -1,7 +1,9 @@
 ---
 name: growth-loops
+group: Operating layer
 description: >-
-  Set up recurring marketing workflows an agent runs on a schedule.
+  Set up recurring marketing workflows an agent runs on a schedule. Use when designing
+  self-reinforcing acquisition, content, or product loops.
 ---
 # Growth Loops
 

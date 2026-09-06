@@ -1,7 +1,10 @@
 ---
 name: ai-visibility
+group: Search and AI discovery
 description: >-
-  Get cited by ChatGPT, Gemini, Perplexity and AI Overviews: answer-shaped content, schema, feeds, llms.txt, citation tracking.
+  Get cited by ChatGPT, Gemini, Perplexity and AI Overviews: answer-shaped content, schema, feeds,
+  llms.txt, citation tracking. Use when optimizing content for Perplexity, ChatGPT, or AI
+  citations.
 ---
 # AI Visibility
 

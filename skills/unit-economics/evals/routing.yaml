@@ -1,7 +1,16 @@
 should_fire:
-  - "help with unit economics"
-  - "model cac, ltv, payback and channel break-even so spend decisions have a floor."
-  - "run unit-economics workflow"
+  - 'calculate our blended and paid Customer Acquisition Cost (CAC)'
+  - 'determine customer Lifetime Value (LTV) and our LTV:CAC ratio across cohorts'
+  - 'what is our CAC payback period in months based on gross margins'
+  - 'model our unit economics per customer including hosting and support costs'
+  - 'are our paid acquisition campaigns profitable on a unit economics basis'
+  - 'calculate the gross margin and net contribution margin for our SaaS tiers'
+  - 'estimate how churn rate impacts our long-term customer lifetime value'
+  - 'determine the maximum allowable CAC for our enterprise sales motion'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'determine the subscription price points for our tiers'
+    expect: 'pricing'
+  - prompt: 'calculate financial runway and monthly cash burn'
+    expect: 'runway-planning'
+  - prompt: 'set up multi-touch marketing attribution across channels'
+    expect: 'attribution'

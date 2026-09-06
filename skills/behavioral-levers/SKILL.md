@@ -1,7 +1,9 @@
 ---
 name: behavioral-levers
+group: Operating layer
 description: >-
-  Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer.
+  Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer. Use
+  when applying loss aversion, social proof, anchoring, or nudges.
 ---
 # Behavioral Levers
 

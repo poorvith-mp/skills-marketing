@@ -1,7 +1,9 @@
 ---
 name: seo-audit
+group: Search and AI discovery
 description: >-
-  Diagnose technical, on-page and ranking-loss issues on a live site, ranked by impact.
+  Diagnose technical, on-page and ranking-loss issues on a live site, ranked by impact. Use when
+  diagnosing technical SEO issues, crawling errors, or index drops.
 ---
 # SEO Audit
 

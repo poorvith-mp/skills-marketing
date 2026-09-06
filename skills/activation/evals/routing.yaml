@@ -1,7 +1,16 @@
 should_fire:
-  - "help with activation"
-  - "fix signup, first-run and onboarding so new users hit value in the first session."
-  - "run activation workflow"
+  - 'how do we shorten the time-to-value for new users after they sign up'
+  - 'design an interactive onboarding checklist to guide users to their aha moment'
+  - 'improve empty state screens across our app to encourage users to create their first project'
+  - 'why do 60% of our free trial users never complete their initial workspace setup'
+  - 'design a progressive onboarding flow that doesn''t overwhelm first-time users'
+  - 'identify our product''s primary activation milestone and measure user progress toward it'
+  - 'reduce first-session friction so users experience core value within 3 minutes'
+  - 'create a sample project template to help new signups get started instantly'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit the landing page and registration form conversion rates'
+    expect: 'conversion-audit'
+  - prompt: 'write a 5-part email welcome drip sequence for new users'
+    expect: 'lifecycle-messaging'
+  - prompt: 'conduct usability interviews on UI navigation patterns'
+    expect: 'ux-research'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with marketing council"
-  - "put a decision in front of a simulated board of legendary marketers and synthesise their verdict."
-  - "run marketing-council workflow"
+  - 'have the marketing council review our product launch and positioning strategy'
+  - 'what would Seth Godin and David Ogilvy say about our current homepage copy'
+  - 'get multiple contrasting perspectives on whether we should offer a freemium plan'
+  - 'run our new positioning through an advisory board of growth and brand thinkers'
+  - 'channel April Dunford''s framework to stress-test our category choice'
+  - 'how would Rory Sutherland approach this pricing perception challenge'
+  - 'debate the pros and cons of developer-focused marketing with simulated expert advisors'
+  - 'get a simulated marketing board of advisors to critique our GTM roadmap'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct customer interview research to uncover real user pain'
+    expect: 'customer-research'
+  - prompt: 'write the actual marketing copy for our landing page'
+    expect: 'landing-copy'
+  - prompt: 'create a structured 90-day growth execution plan'
+    expect: 'growth-plan'

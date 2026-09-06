@@ -1,7 +1,16 @@
 should_fire:
-  - "help with referrals"
-  - "design referral, affiliate and ambassador programmes with incentives and payout mechanics."
-  - "run referrals workflow"
+  - 'design a two-sided referral program offering rewards to both referrer and referee'
+  - 'how do we build a viral invite loop into our product onboarding flow'
+  - 'should we offer subscription discounts, cash payouts, or extra storage for referrals'
+  - 'launch an affiliate program to incentivize content creators to recommend our tool'
+  - 'optimize the timing of referral prompts so we ask happy users at peak moments'
+  - 'write email templates encouraging existing customers to invite their team members'
+  - 'prevent referral fraud and self-referrals in our affiliate program'
+  - 'measure referral conversion rates and viral coefficient (K-factor)'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'structure co-marketing partnerships with other software companies'
+    expect: 'partnerships'
+  - prompt: 'manage renewals and contract expansions with enterprise clients'
+    expect: 'renewals'
+  - prompt: 'build an engaged Discord community for our users'
+    expect: 'community'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with attribution"
-  - "work out which channels actually drive revenue and reconcile conflicting platform numbers."
-  - "run attribution workflow"
+  - 'set up a UTM parameter naming convention across all our marketing campaigns'
+  - 'track which marketing channel generated our highest-value enterprise deals'
+  - 'implement first-touch vs last-touch vs linear multi-touch attribution models'
+  - 'attribute customer signups back to specific blog posts and social links'
+  - 'reconcile discrepancies between Google Ads conversions and our internal database'
+  - 'track partner referral link clicks and conversions without using invasive cookies'
+  - 'measure the organic conversion lift following our podcast sponsorship campaign'
+  - 'analyze which touchpoints in the customer journey contribute most to conversion'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'set up core GA4 or PostHog tracking scripts on our website'
+    expect: 'analytics-setup'
+  - prompt: 'calculate overall Customer Acquisition Cost (CAC) and payback'
+    expect: 'unit-economics'
+  - prompt: 'run an A/B test between two variants of our pricing page'
+    expect: 'experimentation'

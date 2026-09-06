@@ -1,7 +1,9 @@
 ---
 name: marketing-council
+group: Operating layer
 description: >-
-  Put a decision in front of a simulated board of legendary marketers and synthesise their verdict.
+  Put a decision in front of a simulated board of legendary marketers and synthesise their
+  verdict. Use when seeking simulated advisory review from legendary marketers.
 ---
 # Marketing Council
 

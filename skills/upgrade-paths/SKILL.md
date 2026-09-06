@@ -1,7 +1,9 @@
 ---
 name: upgrade-paths
+group: Lifecycle
 description: >-
-  Convert free to paid in-product: feature gates, upgrade screens, trial-end moments and expansion offers.
+  Convert free to paid in-product: feature gates, upgrade screens, trial-end moments and expansion
+  offers. Use when designing in-app paywalls, upgrade modals, or usage triggers.
 ---
 # Upgrade Paths
 

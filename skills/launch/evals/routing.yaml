@@ -1,7 +1,16 @@
 should_fire:
-  - "help with launch"
-  - "run a launch end to end"
-  - "run launch workflow"
+  - 'create an end-to-end launch plan for our upcoming Product Hunt release'
+  - 'write a compelling Show HN post and founder comment for Hacker News'
+  - 'coordinate our multi-channel launch day schedule across Twitter, HN, and newsletters'
+  - 'prepare launch assets: tagline, maker comment, gallery images, and first comment'
+  - 'how do we mobilize our community and supporters on launch day without spamming'
+  - 'write the announcement email and social media posts for our version 3.0 launch'
+  - 'create a post-launch debrief checklist to analyze traffic spikes and conversions'
+  - 'plan a pre-launch waitlist strategy to build initial momentum before release day'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write release notes and CHANGELOG entries for developers'
+    expect: 'change-notes'
+  - prompt: 'submit our product to 50 free software directories'
+    expect: 'directory-submissions'
+  - prompt: 'write conversion copy for the product landing page'
+    expect: 'landing-copy'

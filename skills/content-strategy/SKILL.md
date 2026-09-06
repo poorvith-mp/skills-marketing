@@ -1,7 +1,9 @@
 ---
 name: content-strategy
+group: Content
 description: >-
-  Decide what to publish: topic clusters, publishing calendar, refresh queue and what to kill.
+  Decide what to publish: topic clusters, publishing calendar, refresh queue and what to kill. Use
+  when planning content roadmaps, topic clusters, or editorial calendars.
 ---
 # Content Strategy
 

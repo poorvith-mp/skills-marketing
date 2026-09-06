@@ -1,7 +1,9 @@
 ---
 name: competitive-intel
+group: Foundation
 description: >-
   Turn competitor URLs into structured dossiers, then into battlecards and vs/alternative pages.
+  Use when analyzing competitor positioning, feature parity, or teardowns.
 ---
 # Competitive Intel
 

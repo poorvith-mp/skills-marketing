@@ -1,7 +1,9 @@
 ---
 name: sales-enablement
+group: Sales handoff
 description: >-
-  Build the collateral that closes: decks, one-pagers, demo scripts and objection handling.
+  Build the collateral that closes: decks, one-pagers, demo scripts and objection handling. Use
+  when creating sales one-pagers, demo decks, or battlecards.
 ---
 # Sales Enablement
 

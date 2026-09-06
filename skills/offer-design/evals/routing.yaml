@@ -1,7 +1,16 @@
 should_fire:
-  - "help with offer design"
-  - "construct what you sell"
-  - "run offer-design workflow"
+  - 'structure a compelling irresistible offer for our B2B agency services'
+  - 'design a risk-reversal guarantee that removes buyer hesitation'
+  - 'how can we bundle bonuses and assets to increase our offer''s perceived value'
+  - 'create an urgent and scarcity-driven launch promotion for our course'
+  - 'craft a productized service offering with clear deliverables and timeline'
+  - 'redesign our software demo offer to generate more qualified bookings'
+  - 'package our consulting services into tiered fixed-scope offers'
+  - 'develop a high-converting pilot offer for enterprise design partners'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'determine our SaaS subscription price points and tier limits'
+    expect: 'pricing'
+  - prompt: 'write the sales page headline and copy for our offer'
+    expect: 'landing-copy'
+  - prompt: 'calculate customer lifetime value and payback periods'
+    expect: 'unit-economics'

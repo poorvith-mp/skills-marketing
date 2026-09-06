@@ -1,7 +1,16 @@
 should_fire:
-  - "help with link building"
-  - "earn links"
-  - "run link-building workflow"
+  - 'build a link-building outreach campaign to acquire editorial backlinks'
+  - 'find broken link building opportunities on high-authority industry resources'
+  - 'how can we leverage proprietary survey data for digital PR and journalist backlinks'
+  - 'identify unlinked brand mentions across the web and ask for links'
+  - 'create a skyscraper content asset designed to attract passive backlinks'
+  - 'outreach to industry resource roundups and curated tool directories for inclusion'
+  - 'analyze our competitors'' backlink profiles to find replicable link sources'
+  - 'write personalized cold pitch emails to bloggers requesting resource links'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'submit our startup to software directories like Product Hunt and SaaSHub'
+    expect: 'directory-submissions'
+  - prompt: 'pitch tech journalists for press coverage in TechCrunch'
+    expect: 'public-relations'
+  - prompt: 'audit our website for technical crawling and indexation errors'
+    expect: 'seo-audit'

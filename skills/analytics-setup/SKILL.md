@@ -1,7 +1,9 @@
 ---
 name: analytics-setup
+group: Measurement
 description: >-
-  Install and QA tracking: event plan, UTMs, GA4/GTM and conversion tracking.
+  Install and QA tracking: event plan, UTMs, GA4/GTM and conversion tracking. Use when configuring
+  GA4, PostHog, event tracking, or conversion goals.
 ---
 # Analytics Setup
 

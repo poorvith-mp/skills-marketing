@@ -1,7 +1,9 @@
 ---
 name: pricing
+group: Offer and money
 description: >-
   Set tiers, value metric, trial versus freemium and price changes, and audit the pricing page.
+  Use when determining price levels, packaging tiers, or freemium models.
 ---
 # Pricing
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with video production"
-  - "script and produce demos, explainers, ugc-style ads and avatar video."
-  - "run video-production workflow"
+  - 'script an engaging 90-second product demo video for our homepage'
+  - 'create a storyboard and narrative arc for our software launch teaser video'
+  - 'how should we structure a short tutorial video demonstrating our new feature'
+  - 'write voiceover copy and visual cues for an animated explainer video'
+  - 'edit and produce high-retention video clips for Twitter and LinkedIn feeds'
+  - 'plan a multi-part YouTube video series teaching developers our framework'
+  - 'produce a polished walkthrough video showcasing our product''s key workflow'
+  - 'choose background music, transitions, and pacing for a fast promotional video'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design static Open Graph images and social graphics'
+    expect: 'visual-assets'
+  - prompt: 'record and process audio speech using Whisper pipelines'
+    expect: 'speech-pipelines'
+  - prompt: 'write social media post copy to accompany a video'
+    expect: 'social-content'

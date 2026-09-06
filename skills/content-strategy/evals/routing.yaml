@@ -1,7 +1,16 @@
 should_fire:
-  - "help with content strategy"
-  - "decide what to publish"
-  - "run content-strategy workflow"
+  - 'develop a 6-month content marketing strategy to drive organic customer signups'
+  - 'build topic clusters around our core product themes to establish search authority'
+  - 'create an editorial calendar balancing top-of-funnel and high-intent content'
+  - 'how should we prioritize blog topics based on search volume and product relevance'
+  - 'map our content themes to specific stages of the customer buying journey'
+  - 'identify content gaps where our competitors rank but we have no presence'
+  - 'design a repeatable workflow for repurposing research into blog and social content'
+  - 'determine what topics our technical developer audience actually wants to read'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write the complete draft of a specific technical tutorial article'
+    expect: 'article-writing'
+  - prompt: 'plan social media posts and tweets for next week'
+    expect: 'social-content'
+  - prompt: 'repurpose an article into a viral Twitter/X thread'
+    expect: 'thread-to-article'

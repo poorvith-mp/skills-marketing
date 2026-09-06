@@ -1,7 +1,9 @@
 ---
 name: page-scale
+group: Search and AI discovery
 description: >-
-  Build templated pages from a dataset — locations, integrations, use cases — without tripping thin-content filters.
+  Build templated pages from a dataset — locations, integrations, use cases — without tripping
+  thin-content filters. Use when building programmatic SEO pages or templated content at scale.
 ---
 # Page Scale
 

@@ -1,7 +1,9 @@
 ---
 name: customer-research
+group: Foundation
 description: >-
-  Mine interviews, tickets, reviews and communities for the exact words customers use; output personas and JTBD.
+  Mine interviews, tickets, reviews and communities for the exact words customers use; output
+  personas and JTBD. Use when mining customer voice, interview transcripts, or user pains.
 ---
 # Customer Research
 

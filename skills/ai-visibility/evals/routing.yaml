@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ai visibility"
-  - "get cited by chatgpt, gemini, perplexity and ai overviews"
-  - "run ai-visibility workflow"
+  - 'how can we optimize our brand to get cited more often by ChatGPT and Perplexity'
+  - 'create an llms.txt file to help AI search engines parse our documentation'
+  - 'audit our AI visibility across generative search engines for core industry terms'
+  - 'structure our knowledge base articles to maximize extraction by LLMs'
+  - 'what formatting makes content most readable and quotable for AI answer engines'
+  - 'how do generative search engines evaluate authoritativeness for citation'
+  - 'optimize our product documentation for AI agents and search indexing'
+  - 'track our brand''s share of voice in Claude and ChatGPT comparison answers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit our website for traditional Google search indexing and crawl errors'
+    expect: 'seo-audit'
+  - prompt: 'build programmatic SEO pages targeting long-tail Google search queries'
+    expect: 'page-scale'
+  - prompt: 'design prompts for an autonomous agent'
+    expect: 'prompt-engineering'

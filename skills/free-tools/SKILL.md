@@ -1,7 +1,9 @@
 ---
 name: free-tools
+group: Assets
 description: >-
-  Spec a free calculator, grader or generator as an acquisition channel.
+  Spec a free calculator, grader or generator as an acquisition channel. Use when building
+  engineering-as-marketing tools or free calculators.
 ---
 # Free Tools
 

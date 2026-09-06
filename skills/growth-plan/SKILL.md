@@ -1,7 +1,9 @@
 ---
 name: growth-plan
+group: Foundation
 description: >-
-  Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets and kill criteria.
+  Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets
+  and kill criteria. Use when designing 90-day growth plans, GTM strategy, or channel roadmaps.
 ---
 # Growth Plan
 

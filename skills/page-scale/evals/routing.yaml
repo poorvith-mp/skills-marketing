@@ -1,7 +1,16 @@
 should_fire:
-  - "help with page scale"
-  - "build templated pages from a dataset — locations, integrations, use cases — without tripping thin-content filters."
-  - "run page-scale workflow"
+  - 'design a programmatic SEO architecture to generate 500 city-based landing pages'
+  - 'create a scalable template for ''[Tool A] vs [Tool B]'' comparison pages'
+  - 'generate templated pages for every integration and file format we support'
+  - 'build an automated pipeline to generate SEO pages from database records'
+  - 'ensure our programmatic SEO pages avoid Google''s thin content and doorway penalties'
+  - 'how should we structure URL parameters and internal links for 1,000 category pages'
+  - 'create unique value-add modules to include across programmatic directory pages'
+  - 'scale landing page creation using structured Airtable or CSV datasets'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write an in-depth long-form research article by hand'
+    expect: 'article-writing'
+  - prompt: 'audit existing pages for technical crawling and indexing issues'
+    expect: 'seo-audit'
+  - prompt: 'write high-converting copy for our single primary homepage'
+    expect: 'landing-copy'

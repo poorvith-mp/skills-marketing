@@ -1,7 +1,9 @@
 ---
 name: article-writing
+group: Content
 description: >-
-  Write the piece: search-intent structure, keyword-led headings, internal links and schema.
+  Write the piece: search-intent structure, keyword-led headings, internal links and schema. Use
+  when drafting in-depth articles, tutorials, or opinionated essays.
 ---
 # Article Writing
 

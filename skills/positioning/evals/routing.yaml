@@ -1,7 +1,16 @@
 should_fire:
-  - "help with positioning"
-  - "define category, icp, differentiators and message hierarchy, then save them as the context file every other skill reads."
-  - "run positioning workflow"
+  - 'help us establish our product positioning and target customer profile'
+  - 'define the value proposition and core differentiator for our developer tool'
+  - 'how should we position ourselves against legacy incumbents in our market'
+  - 'draft our message hierarchy: category, hook, and three core value pillars'
+  - 'refine our ideal customer profile (ICP) definition and pain points'
+  - 'we are entering a crowded market, how do we carve out a clear niche'
+  - 'create a positioning document that our entire sales and marketing team can align on'
+  - 'clarify our positioning statement before we redesign our homepage'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'conduct customer interview research to uncover language'
+    expect: 'customer-research'
+  - prompt: 'write the hero section headline and subhead for our landing page'
+    expect: 'landing-copy'
+  - prompt: 'tear down a competitor''s pricing tiers and feature gates'
+    expect: 'competitive-intel'

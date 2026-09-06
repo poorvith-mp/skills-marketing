@@ -1,7 +1,16 @@
 should_fire:
-  - "help with seo audit"
-  - "diagnose technical, on-page and ranking-loss issues on a live site, ranked by impact."
-  - "run seo-audit workflow"
+  - 'conduct a technical SEO audit on our website to find indexation issues'
+  - 'why did our organic search traffic drop by 25% following the latest core update'
+  - 'check our site for duplicate content, canonical tag errors, and broken links'
+  - 'audit our XML sitemaps and robots.txt configuration for crawl blockages'
+  - 'identify pages with thin content or poor internal linking structures'
+  - 'audit our site architecture for crawl depth and orphan pages'
+  - 'check if our international hreflang tags are configured properly'
+  - 'find crawl budget inefficiencies across our e-commerce product pages'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize content to appear in ChatGPT, Perplexity, and AI answers'
+    expect: 'ai-visibility'
+  - prompt: 'build thousands of programmatic landing pages for long-tail keywords'
+    expect: 'page-scale'
+  - prompt: 'audit frontend Core Web Vitals and JavaScript bundle size'
+    expect: 'performance-audit'

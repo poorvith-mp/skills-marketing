@@ -1,7 +1,9 @@
 ---
 name: social-listening
+group: Distribution
 description: >-
-  Monitor mentions, competitors and buying-intent threads, and surface where to reply today.
+  Monitor mentions, competitors and buying-intent threads, and surface where to reply today. Use
+  when tracking brand mentions, competitor chatter, or social queries.
 ---
 # Social Listening
 

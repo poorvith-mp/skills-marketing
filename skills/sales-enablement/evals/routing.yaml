@@ -1,7 +1,16 @@
 should_fire:
-  - "help with sales enablement"
-  - "build the collateral that closes"
-  - "run sales-enablement workflow"
+  - 'create a technical one-pager summarizing our architecture for enterprise buyers'
+  - 'build a competitor battlecard helping sales reps handle tough objections'
+  - 'design an interactive demo script that highlights our unique differentiators'
+  - 'write email follow-up templates for account executives after discovery calls'
+  - 'create a security and compliance FAQ document for sales conversations'
+  - 'draft customer case studies with quantifiable ROI metrics for sales pitches'
+  - 'prepare presentation slides explaining our enterprise deployment options'
+  - 'create a feature comparison matrix for sales reps to share with prospects'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'lead a live discovery call with a prospective client'
+    expect: 'discovery'
+  - prompt: 'write cold outbound outreach sequences to prospective leads'
+    expect: 'cold-outreach'
+  - prompt: 'draft a legally binding master service agreement (MSA)'
+    expect: 'contract-drafting'

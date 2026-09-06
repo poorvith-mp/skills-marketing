@@ -1,7 +1,16 @@
 should_fire:
-  - "help with analytics setup"
-  - "install and qa tracking"
-  - "run analytics-setup workflow"
+  - 'set up Google Analytics 4 (GA4) with custom event tracking for signups'
+  - 'configure PostHog to track product user actions, funnels, and retention cohorts'
+  - 'create a comprehensive tracking plan defining event names and properties'
+  - 'set up Google Tag Manager (GTM) triggers for form submissions and button clicks'
+  - 'audit our analytics setup to ensure conversion events fire accurately without duplicates'
+  - 'implement server-side tracking to bypass ad blockers and browser restrictions'
+  - 'track custom user properties and plan tiers in Mixpanel or Amplitude'
+  - 'verify that our e-commerce purchase events pass revenue data to analytics'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'attribute conversions across paid ads and referral links with UTMs'
+    expect: 'attribution'
+  - prompt: 'run a split test to compare conversion between two page variants'
+    expect: 'experimentation'
+  - prompt: 'compile a monthly executive marketing performance report'
+    expect: 'marketing-report'

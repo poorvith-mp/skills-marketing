@@ -1,7 +1,9 @@
 ---
 name: app-store-optimization
+group: Platform and naming
 description: >-
-  Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion.
+  Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion. Use
+  when optimizing iOS App Store or Google Play keywords and listings.
 ---
 # App Store Optimization
 

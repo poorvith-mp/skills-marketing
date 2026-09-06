@@ -1,7 +1,16 @@
 should_fire:
-  - "help with marketing report"
-  - "turn raw channel data into a weekly or monthly report with what changed and what to do next."
-  - "run marketing-report workflow"
+  - 'build a monthly marketing performance dashboard tracking leads, CAC, and pipeline'
+  - 'write an executive summary of our quarterly marketing results for the leadership team'
+  - 'compile a channel-by-channel performance breakdown comparing spend to revenue'
+  - 'track weekly lead velocity and identify which acquisition channels are slowing down'
+  - 'create automated Looker Studio or Metabase dashboards for marketing metrics'
+  - 'summarize organic search, social, and paid campaign performance in one slide deck'
+  - 'highlight key marketing wins, missed targets, and corrective actions for this month'
+  - 'calculate overall marketing efficiency ratio (MER) across our marketing spend'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'prepare the company-wide financial board reporting deck'
+    expect: 'board-reporting'
+  - prompt: 'build internal operational reporting across engineering and HR'
+    expect: 'internal-reporting'
+  - prompt: 'set up event tracking scripts in Google Tag Manager'
+    expect: 'analytics-setup'

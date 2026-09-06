@@ -1,7 +1,16 @@
 should_fire:
-  - "help with directory submissions"
-  - "submit to startup, saas, ai and mcp directories for backlinks and discovery, tracked."
-  - "run directory-submissions workflow"
+  - 'submit our SaaS product to top startup directories like SaaSHub and AlternativeTo'
+  - 'find curated GitHub Awesome lists relevant to our developer tool for inclusion'
+  - 'prepare listing descriptions, tags, and assets for 25 free software directories'
+  - 'submit our open-source repository to relevant developer tool aggregators'
+  - 'track our approval status and backlink indexing across directory submissions'
+  - 'identify niche software directories where our target audience discovers tools'
+  - 'optimize our AlternativeTo profile to rank when users search for competitors'
+  - 'create structured product profiles for directory submissions to save time'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'pitch tech journalists for major press coverage in TechCrunch'
+    expect: 'public-relations'
+  - prompt: 'coordinate our official launch on Product Hunt and Hacker News'
+    expect: 'launch'
+  - prompt: 'acquire high-authority editorial backlinks through outreach'
+    expect: 'link-building'

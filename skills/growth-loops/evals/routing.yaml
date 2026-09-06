@@ -1,7 +1,16 @@
 should_fire:
-  - "help with growth loops"
-  - "set up recurring marketing workflows an agent runs on a schedule."
-  - "run growth-loops workflow"
+  - 'design a self-reinforcing product growth loop to replace linear ad spend'
+  - 'how can user activity in our application generate public pages that attract new users'
+  - 'build a viral collaboration loop where inviting coworkers unlocks core value'
+  - 'map the steps of our customer acquisition loop from signup to referral'
+  - 'identify where our growth flywheel is leaking and losing momentum'
+  - 'design a user-generated content (UGC) loop that scales organic search visibility'
+  - 'how do we turn customer success stories into automated acquisition flywheels'
+  - 'model the reinvestment loop where customer revenue directly funds new creator content'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a 90-day linear marketing channel roadmap'
+    expect: 'growth-plan'
+  - prompt: 'design a customer referral discount program'
+    expect: 'referrals'
+  - prompt: 'set up recurring marketing automations and workflow triggers'
+    expect: 'marketing-council'

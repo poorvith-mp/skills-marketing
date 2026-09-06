@@ -1,7 +1,16 @@
 should_fire:
-  - "help with social content"
-  - "write platform-native posts, threads, carousels and short-form scripts on a cadence."
-  - "run social-content workflow"
+  - 'draft an engaging Twitter/X thread breaking down our engineering lessons'
+  - 'write a founder-led build-in-public LinkedIn post about shipping our new feature'
+  - 'create 5 scroll-stopping hooks for a post about technical architecture decisions'
+  - 'turn this product launch milestone into an authentic story-driven social post'
+  - 'draft a weekly series of insightful tips for developers on Twitter/X'
+  - 'how should we structure our social posts to avoid sounding like corporate AI slop'
+  - 'write a LinkedIn carousel outline summarizing our latest research findings'
+  - 'write a post celebrating our first 1,000 GitHub stars without sounding arrogant'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'monitor Twitter/X and Reddit for keyword brand mentions'
+    expect: 'social-listening'
+  - prompt: 'plan an end-to-end multi-channel product launch campaign'
+    expect: 'launch'
+  - prompt: 'write paid Facebook and LinkedIn sponsored ad copy'
+    expect: 'ad-creative'

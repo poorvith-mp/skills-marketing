@@ -1,7 +1,16 @@
 should_fire:
-  - "help with app store optimization"
-  - "audit and fix app store and play listings"
-  - "run app-store-optimization workflow"
+  - 'audit our iOS App Store listing to improve keyword rankings and organic downloads'
+  - 'research high-intent keywords for our Google Play app title and subtitle'
+  - 'optimize our app icon and screenshot gallery to improve download conversion rate'
+  - 'how should we structure our 100-character iOS keyword field for maximum reach'
+  - 'conduct A/B testing on Google Play store listing graphics and promo text'
+  - 'write an engaging app description incorporating primary search keywords naturally'
+  - 'why did our app store organic impressions drop following our latest release'
+  - 'analyze competitor keyword rankings across the App Store and Google Play'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'develop mobile native screens in Swift or Kotlin'
+    expect: 'mobile-build'
+  - prompt: 'audit web SEO rankings and crawl errors on Google Search'
+    expect: 'seo-audit'
+  - prompt: 'optimize mobile web landing page conversion rates'
+    expect: 'conversion-audit'

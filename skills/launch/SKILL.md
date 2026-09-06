@@ -1,7 +1,9 @@
 ---
 name: launch
+group: Distribution
 description: >-
   Run a launch end to end: sequencing, assets, waitlist, Product Hunt and the HN day-of playbook.
+  Use when orchestrating Product Hunt, Show HN, or major launch days.
 ---
 # Launch
 

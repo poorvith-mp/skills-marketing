@@ -1,7 +1,16 @@
 should_fire:
-  - "help with growth plan"
-  - "pick channels for the current stage, budget and team; output a 90-day plan with owners, targets and kill criteria."
-  - "run growth-plan workflow"
+  - 'create a 90-day go-to-market plan for our early-stage SaaS startup'
+  - 'build a prioritized growth strategy across organic and paid channels'
+  - 'which acquisition channels should we focus on to get our first 100 paying customers'
+  - 'structure our quarterly growth roadmap with clear milestones and channel ownership'
+  - 'develop a full-funnel customer acquisition plan for the upcoming launch'
+  - 'evaluate which distribution channels have the highest leverage for developer tools'
+  - 'map out an integrated GTM motion combining community and content'
+  - 'create a prioritized growth experimentation backlog for Q3'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a 5-year business plan for venture capital investors'
+    expect: 'business-plan'
+  - prompt: 'audit website conversion rates and form drop-offs'
+    expect: 'conversion-audit'
+  - prompt: 'set up event tracking and conversion goals in GA4'
+    expect: 'analytics-setup'

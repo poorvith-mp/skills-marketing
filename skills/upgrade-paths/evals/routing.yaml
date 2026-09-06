@@ -1,7 +1,16 @@
 should_fire:
-  - "help with upgrade paths"
-  - "convert free to paid in-product"
-  - "run upgrade-paths workflow"
+  - 'design an in-app upgrade modal that appears when a user reaches their project limit'
+  - 'where should we place contextual upgrade prompts inside our web application'
+  - 'how do we encourage users on our Starter plan to upgrade to the Pro plan'
+  - 'design a paywall screen that highlights the premium features a user is trying to access'
+  - 'create soft limit warnings as users approach 80% of their monthly usage quota'
+  - 'improve the conversion rate of our in-app trial expiration upgrade banner'
+  - 'structure feature gating so free users feel value before encountering a paywall'
+  - 'write persuasive copy for an in-app prompt nudging teams to add more seats'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'determine overall subscription pricing tiers and price points'
+    expect: 'pricing'
+  - prompt: 'optimize the public-facing marketing pricing page'
+    expect: 'conversion-audit'
+  - prompt: 'handle manual contract renewal negotiations with enterprise clients'
+    expect: 'renewals'

@@ -1,7 +1,9 @@
 ---
 name: public-relations
+group: Earned and partnerships
 description: >-
-  Find journalists, pitch stories, newsjack and answer reporter requests.
+  Find journalists, pitch stories, newsjack and answer reporter requests. Use when pitching tech
+  journalists, press releases, or earned media.
 ---
 # Public Relations
 

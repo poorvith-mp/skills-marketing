@@ -1,7 +1,16 @@
 should_fire:
-  - "help with free tools"
-  - "spec a free calculator, grader or generator as an acquisition channel."
-  - "run free-tools workflow"
+  - 'build a free online tool that generates robots.txt files to drive SEO traffic'
+  - 'create an interactive ROI calculator that prospects can use directly on our site'
+  - 'brainstorm free engineering-as-marketing tool ideas that attract our target audience'
+  - 'design a standalone speed test or audit tool that showcases our product''s value'
+  - 'how can we leverage a free developer utility to generate qualified SaaS signups'
+  - 'build a client-side JSON formatter and validator tool for organic traffic'
+  - 'embed an interactive assessment tool that grades a user''s cloud security posture'
+  - 'design a lightweight web app that solves a small slice of our customer''s pain'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'create a gated downloadable PDF guide or checklist'
+    expect: 'lead-magnets'
+  - prompt: 'develop the core features of our main paid SaaS application'
+    expect: 'frontend-build'
+  - prompt: 'audit landing page conversion rates and button placements'
+    expect: 'conversion-audit'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with pricing"
-  - "set tiers, value metric, trial versus freemium and price changes, and audit the pricing page."
-  - "run pricing workflow"
+  - 'help us design pricing tiers for our SaaS product: Free, Pro, and Enterprise'
+  - 'should we charge per seat, per volume of API calls, or flat monthly'
+  - 'evaluate whether offering a free tier will cannibalize our paid conversion'
+  - 'how do we execute a 30% price increase without triggering massive churn'
+  - 'structure the feature gates between our Starter and Business plans'
+  - 'conduct a Van Westendorp price sensitivity analysis from customer surveys'
+  - 'should we offer an annual discount of 20% or 2 months free'
+  - 'design usage-based pricing metrics that align with customer value expansion'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'optimize the design and visual layout of our pricing table'
+    expect: 'conversion-audit'
+  - prompt: 'bundle bonuses and risk-reversal guarantees into an offer'
+    expect: 'offer-design'
+  - prompt: 'model 3-year cash flow projections and burn rate'
+    expect: 'financial-modeling'

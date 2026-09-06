@@ -1,7 +1,10 @@
 ---
 name: link-building
+group: Search and AI discovery
 description: >-
-  Earn links: prospect targets, guest posts, digital PR, broken-link and unlinked-mention outreach, and when to disavow.
+  Earn links: prospect targets, guest posts, digital PR, broken-link and unlinked-mention
+  outreach, and when to disavow. Use when acquiring high-quality backlinks, mentions, or digital
+  PR links.
 ---
 # Link Building
 

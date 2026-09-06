@@ -1,7 +1,9 @@
 ---
 name: referrals
+group: Earned and partnerships
 description: >-
-  Design referral, affiliate and ambassador programmes with incentives and payout mechanics.
+  Design referral, affiliate and ambassador programmes with incentives and payout mechanics. Use
+  when designing customer referral loops, affiliate programs, or invites.
 ---
 # Referrals
 

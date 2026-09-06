@@ -1,7 +1,9 @@
 ---
 name: positioning
+group: Foundation
 description: >-
-  Define category, ICP, differentiators and message hierarchy, then save them as the context file every other skill reads.
+  Define category, ICP, differentiators and message hierarchy, then save them as the context file
+  every other skill reads. Use when defining category, ICP, differentiators, or message hierarchy.
 ---
 # Positioning
 

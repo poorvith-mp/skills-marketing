@@ -1,7 +1,16 @@
 should_fire:
-  - "help with lifecycle messaging"
-  - "design automated email, sms and push flows"
-  - "run lifecycle-messaging workflow"
+  - 'write a 5-part automated email onboarding sequence for new SaaS signups'
+  - 'draft an email re-engagement campaign targeting users inactive for 30 days'
+  - 'write an announcement email introducing our new major feature release'
+  - 'create an automated milestone email celebrating a user''s first 100 API calls'
+  - 'draft an email nudging free users to upgrade before their 14-day trial expires'
+  - 'write a plain-text founder welcome email that encourages replies and feedback'
+  - 'create triggered in-app notification messages based on specific user actions'
+  - 'design a win-back email sequence offering an incentive to churned subscribers'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write cold outbound sales emails to prospects who never heard of us'
+    expect: 'cold-outreach'
+  - prompt: 'write a weekly content newsletter with industry curation'
+    expect: 'article-writing'
+  - prompt: 'manage high-touch customer renewal negotiations'
+    expect: 'renewals'

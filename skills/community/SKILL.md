@@ -1,7 +1,9 @@
 ---
 name: community
+group: Earned and partnerships
 description: >-
-  Build and run a Discord, Slack or subreddit that produces advocates.
+  Build and run a Discord, Slack or subreddit that produces advocates. Use when building Discord,
+  Slack, or forum developer communities.
 ---
 # Community
 

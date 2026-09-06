@@ -1,7 +1,9 @@
 ---
 name: paid-campaigns
+group: Paid
 description: >-
-  Structure, target, bid and optimise campaigns across Google, Meta, LinkedIn and X.
+  Structure, target, bid and optimise campaigns across Google, Meta, LinkedIn and X. Use when
+  planning or optimizing Google, LinkedIn, or Meta ad campaigns.
 ---
 # Paid Campaigns
 

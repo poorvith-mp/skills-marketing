@@ -1,7 +1,9 @@
 ---
 name: landing-copy
+group: Website conversion
 description: >-
-  Write or rewrite page copy: hero, value prop, objections and CTAs, for any marketing page.
+  Write or rewrite page copy: hero, value prop, objections and CTAs, for any marketing page. Use
+  when writing conversion copy for homepages, landing pages, or CTAs.
 ---
 # Landing Copy
 

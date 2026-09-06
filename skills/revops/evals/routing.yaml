@@ -1,7 +1,16 @@
 should_fire:
-  - "help with revops"
-  - "wire lead scoring, routing, pipeline stages and the marketing-to-sales handoff in the crm."
-  - "run revops workflow"
+  - 'design our HubSpot CRM pipeline stages and deal progression criteria'
+  - 'automate lead scoring and routing between marketing and sales reps'
+  - 'audit our lead-to-opportunity conversion funnel to identify drop-offs'
+  - 'set up automated CRM alerts when high-value accounts show product intent'
+  - 'clean up duplicate company and contact records across our sales database'
+  - 'integrate Stripe customer billing events into our Salesforce CRM'
+  - 'standardize custom fields and reporting properties across marketing and sales tools'
+  - 'build an executive dashboard tracking monthly pipeline velocity and win rates'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage ongoing sales deals and close pipeline opportunities'
+    expect: 'pipeline-health'
+  - prompt: 'set up product analytics tracking in PostHog or GA4'
+    expect: 'analytics-setup'
+  - prompt: 'build workflow automations using n8n'
+    expect: 'n8n'

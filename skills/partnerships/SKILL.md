@@ -1,7 +1,9 @@
 ---
 name: partnerships
+group: Earned and partnerships
 description: >-
   Find and structure creator, sponsor and co-marketing deals: vetting, briefs, disclosure and ROI.
+  Use when structuring co-marketing, ecosystem integrations, or joint ventures.
 ---
 # Partnerships
 

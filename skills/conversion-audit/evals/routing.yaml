@@ -1,7 +1,16 @@
 should_fire:
-  - "help with conversion audit"
-  - "audit a page or form for friction and return a prioritised change list with expected lift."
-  - "run conversion-audit workflow"
+  - 'audit our landing page to identify why only 1.5% of visitors convert'
+  - 'why are users abandoning our multi-step signup form on step 2'
+  - 'review our pricing page layout to uncover conversion friction and cognitive load'
+  - 'conduct a heuristic conversion review of our mobile checkout flow'
+  - 'identify UX friction points causing high drop-off on our demo booking page'
+  - 'audit our value proposition clarity and visual hierarchy above the fold'
+  - 'what changes would improve conversion rate on this high-traffic landing page'
+  - 'tear down our free trial signup flow and recommend friction-reducing fixes'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run a statistically significant A/B split test on our hero button'
+    expect: 'experimentation'
+  - prompt: 'rewrite the actual hero copy and headline text'
+    expect: 'landing-copy'
+  - prompt: 'improve post-signup activation and onboarding time-to-value'
+    expect: 'activation'

@@ -1,7 +1,9 @@
 ---
 name: retention
+group: Lifecycle
 description: >-
-  Cut churn with cancel flows, save offers, dunning, exit surveys and account health signals.
+  Cut churn with cancel flows, save offers, dunning, exit surveys and account health signals. Use
+  when diagnosing churn, building retention loops, or cohort analysis.
 ---
 # Retention
 

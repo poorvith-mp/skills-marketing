@@ -1,7 +1,16 @@
 should_fire:
-  - "help with lead magnets"
-  - "pick, produce and gate the download or template that captures emails."
-  - "run lead-magnets workflow"
+  - 'create a high-value downloadable PDF cheat sheet to capture email leads'
+  - 'design an actionable Notion template that developers will gladly give their email for'
+  - 'brainstorm 5 lead magnet ideas targeted at engineering managers'
+  - 'write copy for a landing page offering a free cloud architecture checklist'
+  - 'structure an email gate that delivers instant value without friction'
+  - 'create an interactive spreadsheet calculator as a gated lead generation asset'
+  - 'turn our top-performing blog post into an expanded downloadable resource guide'
+  - 'audit our existing lead magnet to improve opt-in conversion rates'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'build a free interactive web tool or calculator on our domain'
+    expect: 'free-tools'
+  - prompt: 'write the email welcome drip sequence delivered after opt-in'
+    expect: 'lifecycle-messaging'
+  - prompt: 'write a long-form ungated technical blog post'
+    expect: 'article-writing'

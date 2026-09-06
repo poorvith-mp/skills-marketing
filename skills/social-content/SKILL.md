@@ -1,7 +1,9 @@
 ---
 name: social-content
+group: Distribution
 description: >-
-  Write platform-native posts, threads, carousels and short-form scripts on a cadence.
+  Write platform-native posts, threads, carousels and short-form scripts on a cadence. Use when
+  drafting organic Twitter/X threads, LinkedIn posts, or hooks.
 ---
 # Social Content
 

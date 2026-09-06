@@ -1,7 +1,9 @@
 ---
 name: marketing-report
+group: Measurement
 description: >-
-  Turn raw channel data into a weekly or monthly report with what changed and what to do next.
+  Turn raw channel data into a weekly or monthly report with what changed and what to do next. Use
+  when building marketing KPI dashboards or monthly channel reviews.
 ---
 # Marketing Report
 

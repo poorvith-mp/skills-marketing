@@ -1,7 +1,16 @@
 should_fire:
-  - "help with public relations"
-  - "find journalists, pitch stories, newsjack and answer reporter requests."
-  - "run public-relations workflow"
+  - 'write a targeted pitch email to tech journalists at TechCrunch and Wired'
+  - 'draft a press release announcing our $2M seed round funding'
+  - 'build a media list of reporters who cover developer tools and AI infrastructure'
+  - 'craft a newsworthy angle for our company announcement that journalists care about'
+  - 'prepare our founders for an upcoming press interview with talking points'
+  - 'respond to relevant journalist queries on Qwoted or HARO to earn press coverage'
+  - 'create a press kit with company background, logos, and executive headshots'
+  - 'how do we newsjack an industry debate to get quoted in tech publications'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'submit our tool to free software directories and aggregators'
+    expect: 'directory-submissions'
+  - prompt: 'write organic founder-led posts on Twitter/X and LinkedIn'
+    expect: 'social-content'
+  - prompt: 'launch our product on Product Hunt and Show HN'
+    expect: 'launch'

@@ -1,7 +1,10 @@
 ---
 name: naming
+group: Platform and naming
 description: >-
-  Name the product, company or feature, then check it survives contact — domain, trademark, handles and store collisions.
+  Name the product, company or feature, then check it survives contact — domain, trademark,
+  handles and store collisions. Use when naming products, companies, features, or checking
+  domains.
 ---
 # Naming
 

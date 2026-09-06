@@ -1,7 +1,16 @@
 should_fire:
-  - "help with naming"
-  - "name the product, company or feature, then check it survives contact — domain, trademark, handles and store collisions."
-  - "run naming workflow"
+  - 'brainstorm brand names for our developer security platform'
+  - 'generate memorable, punchy names for our new AI coding feature'
+  - 'evaluate name candidates for linguistic clarity, pronunciation, and domain availability'
+  - 'what naming framework should we use: descriptive, suggestive, or invented'
+  - 'check whether our shortlisted product names carry negative cultural connotations'
+  - 'brainstorm creative .com and .dev domain names that are actually available'
+  - 'help us name our new tier or subscription packaging plans'
+  - 'screen name options to ensure they don''t infringe on existing tech trademarks'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'protect our selected brand name with trademark registration'
+    expect: 'ip-protection'
+  - prompt: 'define our product positioning and market category'
+    expect: 'positioning'
+  - prompt: 'design our brand visual identity, colors, and logo system'
+    expect: 'brand-system'

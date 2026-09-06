@@ -1,7 +1,9 @@
 ---
 name: ad-creative
+group: Paid
 description: >-
-  Generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test roadmap.
+  Generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test
+  roadmap. Use when writing ad copy, hooks, scripts, or designing ad visuals.
 ---
 # Ad Creative
 

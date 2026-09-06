@@ -1,7 +1,16 @@
 should_fire:
-  - "help with ad creative"
-  - "generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test roadmap."
-  - "run ad-creative workflow"
+  - 'write 5 high-converting ad copy variations for a LinkedIn sponsored post'
+  - 'write compelling Google Search ad headlines and descriptions within character limits'
+  - 'create 3 hook angles and video scripts for a 30-second Meta feed ad'
+  - 'design high-contrast banner ad concepts that stand out in developer feeds'
+  - 'draft direct-response ad copy highlighting our competitor''s price increase'
+  - 'write punchy display ad text for a retargeting campaign'
+  - 'brainstorm scroll-stopping visual concepts for our upcoming product launch ads'
+  - 'create headline variations testing different value propositions for Facebook ads'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage campaign budgets, bidding strategies, and audience targeting'
+    expect: 'paid-campaigns'
+  - prompt: 'write conversion copy for our website landing page'
+    expect: 'landing-copy'
+  - prompt: 'produce and edit finished promotional marketing videos'
+    expect: 'video-production'

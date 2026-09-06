@@ -1,7 +1,16 @@
 should_fire:
-  - "help with community"
-  - "build and run a discord, slack or subreddit that produces advocates."
-  - "run community workflow"
+  - 'how do we launch and grow an engaged Discord community for our developer tool'
+  - 'design community engagement rituals that turn lurkers into active contributors'
+  - 'create community guidelines and moderation rules for our Slack channel'
+  - 'structure channels in Discord to encourage technical questions and discussions'
+  - 'run an online community hackathon or challenge to boost active participation'
+  - 'identify and nurture our top community champions into official brand ambassadors'
+  - 'measure community health using active member retention and response times'
+  - 'transition a passive audience into a thriving, self-sustaining developer community'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'draft tweets and LinkedIn updates for our public social feed'
+    expect: 'social-content'
+  - prompt: 'manage post-sales customer support tickets and technical help'
+    expect: 'support-replies'
+  - prompt: 'launch a customer advocacy or referral program'
+    expect: 'referrals'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with behavioral levers"
-  - "apply anchoring, loss aversion, social proof and framing to a specific page, price or offer."
-  - "run behavioral-levers workflow"
+  - 'apply price anchoring to make our Pro tier feel like an obvious bargain'
+  - 'use loss aversion ethically to encourage users to complete their account backup'
+  - 'how can we leverage social proof and consensus signals to reduce purchase anxiety'
+  - 'design subtle behavioral nudges that guide users to take their next action'
+  - 'incorporate the endowment effect to make users feel ownership of their workspace'
+  - 'reduce choice overload on our feature comparison page using the decoy effect'
+  - 'use scarcity and urgency legitimately during an end-of-quarter promotion'
+  - 'apply cognitive psychology principles to optimize our checkout completion rate'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit landing page UX friction and usability bugs'
+    expect: 'conversion-audit'
+  - prompt: 'determine mathematical price points and packaging tiers'
+    expect: 'pricing'
+  - prompt: 'write the final copy for our landing page headline'
+    expect: 'landing-copy'

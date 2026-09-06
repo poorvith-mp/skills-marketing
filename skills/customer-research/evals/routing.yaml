@@ -1,7 +1,16 @@
 should_fire:
-  - "help with customer research"
-  - "mine interviews, tickets, reviews and communities for the exact words customers use; output personas and jtbd."
-  - "run customer-research workflow"
+  - 'analyze these 10 customer interview transcripts for recurring pain points'
+  - 'mine Reddit, G2, and Capterra reviews to find what users hate about competitors'
+  - 'extract the exact phrases and emotional language customers use to describe their problem'
+  - 'structure a customer discovery interview script to validate our new feature'
+  - 'synthesize voice-of-customer (VOC) insights into actionable marketing themes'
+  - 'identify the primary triggers that cause people to search for a solution like ours'
+  - 'what are the top objections customers express before deciding to buy'
+  - 'cluster customer feedback from support tickets into jobs-to-be-done'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'run usability testing to see where users get confused in our app UI'
+    expect: 'ux-research'
+  - prompt: 'define our brand positioning and market category'
+    expect: 'positioning'
+  - prompt: 'write an email newsletter updating customers on new features'
+    expect: 'lifecycle-messaging'

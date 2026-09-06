@@ -1,7 +1,16 @@
 should_fire:
-  - "help with article writing"
-  - "write the piece"
-  - "run article-writing workflow"
+  - 'write an in-depth, technical article explaining how distributed locks work'
+  - 'draft an opinionated essay on why microservices fail at early-stage startups'
+  - 'write a comprehensive comparison guide between PostgreSQL and MySQL for 2026'
+  - 'turn this rough outline into a compelling, authoritative blog post'
+  - 'write an actionable tutorial walking developers through our SDK integration'
+  - 'draft a thought-leadership article discussing the future of AI coding agents'
+  - 'write an engaging story-driven case study detailing a customer migration'
+  - 'produce a high-quality guide on reducing cloud costs with practical examples'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'plan the high-level 6-month content roadmap and topic clusters'
+    expect: 'content-strategy'
+  - prompt: 'line-edit this draft to improve rhythm and eliminate fluff'
+    expect: 'line-editing'
+  - prompt: 'write high-converting landing page headline and hero copy'
+    expect: 'landing-copy'
