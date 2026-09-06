@@ -6,59 +6,67 @@ description: >-
   outreach, and when to disavow. Use when acquiring high-quality backlinks, mentions, or digital
   PR links.
 ---
+
 # Link Building
 
-Earn links: prospect targets, guest posts, digital PR, broken-link and unlinked-mention outreach, and when to disavow..
+Link building is the acquisition of editorially earned, high-authority external backlinks to build domain authority, enhance search ranking velocity, and drive referral discovery. Modern link acquisition rejects black-hat link schemes, automated spam outreach, and paid PBN link farms, focusing instead on digital PR, original research citations, unlinked brand mention recovery, and resource page placements.
 
-## Process
+## 1. High-Authority Link Acquisition Strategies
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+### A. Original Research & Benchmark Data (Link Magnets)
+- The highest-yielding backlink strategy is publishing proprietary industry data that other journalists and writers must cite as a source:
+  - *Example*: "Analysis of 500,000 LLM API calls: Average latency and failure rates across 8 providers."
+  - *Mechanism*: Tech journalists, bloggers, and industry analysts writing about AI latency search for benchmark statistics and naturally link to your original dataset as their citation.
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+### B. Unlinked Brand Mention Reclamation
+- Scan the web for journalists, podcasts, or blog posts that mention your product, founders, or open-source libraries by name but forgot to include an active hyperlink:
+- Send a polite, low-friction note:
+  ```txt
+  Subject: Quick note regarding your article on [Topic]
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+  Hi [Name],
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+  Loved your recent breakdown of agentic orchestration workflows. Noticed you mentioned
+  our open-source library, Skillary, in paragraph 4 — really appreciate the shoutout!
 
-## Deliverable & Output Format
+  Would you be open to hyperlinking the mention to https://github.com/poorvith-mp/skillary
+  so your readers can easily find the repository?
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+  Either way, thanks for the great analysis!
+  ```
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+### C. Strategic Guest Contributions & Technical Columns
+- Write definitive, in-depth technical guides for established developer publications (FreeCodeCamp, Smashing Magazine, HackerNoon, respected engineering blogs).
+- Anchor links within the body must be contextual, technical, and directly relevant to the topic, not promotional sales pitches.
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+### D. Broken Link Building on Resource Pages
+- Identify authoritative industry resource pages and curated link directories that contain broken 404 links to dead tools.
+- Inform the webmaster of the broken link and suggest your live, maintained tool/guide as an updated replacement.
 
-## Instructions & Operating Rules
+## 2. Evaluating Backlink Quality & Toxicity
+Not all links are beneficial; low-quality links harm domain reputation:
+- **Domain Rating (DR) / Authority**: Prioritize links from sites with DR > 50 and verified organic search traffic.
+- **Topical Relevance**: A single link from a relevant developer engineering blog carries vastly more algorithmic weight than 50 links from unrelated lifestyle sites.
+- **Link Placement**: Editorial in-content contextual links outperform footer, sidebar, or author-bio links.
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+## 3. Disavow Protocol (Google Search Console)
+When your domain is targeted by negative SEO or accumulated toxic spam links:
+- Maintain a `disavow.txt` file listing spammy domains (`domain:spamsite.xyz`).
+- Submit via Google Search Console Disavow Links Tool only when manual actions or clear algorithmic suppression is observed.
 
-## Verification & Quality Checklist
+## Critical Rules
+1. Never pay third-party link brokers for backlinks; paid links without `rel="sponsored"` or `rel="nofollow"` directly violate Google Search Essentials.
+2. Every link outreach email must be personalized to a specific article and author; automated blast outreach is instantly deleted.
+3. Anchor text must appear natural and diversified; never force exact-match commercial keywords into 100% of backlinks.
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
+## Verification Checklist
+- [ ] Proprietary data or unique technical resources published as linkable assets.
+- [ ] Unlinked brand mentions monitored using Google Alerts or Ahrefs.
+- [ ] Outreach emails sent to named individual editors with custom context.
+- [ ] Backlink profiles audited quarterly for spam and toxic link anomalies.
+- [ ] Acquired links verified indexable (`dofollow` where editorially appropriate).
 
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER participate in reciprocal link exchange networks ("link to me and I'll link to you").
+- NEVER purchase links on Fiverr or unvetted guest-posting networks.
+- NEVER send generic outreach asking webmasters to "check out our awesome blog post" without identifying a specific broken link or editorial gap.

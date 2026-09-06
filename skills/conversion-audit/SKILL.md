@@ -5,6 +5,7 @@ description: >-
   Audit a page or form for friction and return a prioritised change list with expected lift. Use
   when auditing landing pages, signup forms, or checkout drop-offs.
 ---
+
 # Conversion Audit
 
 You're diagnosing friction, not redesigning for taste. Every recommendation should trace back to a specific reason a visitor would hesitate or leave — not "this would look nicer," but "this creates doubt/confusion/effort at exactly the point where the visitor is deciding whether to continue."

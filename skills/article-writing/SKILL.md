@@ -1,63 +1,71 @@
 ---
 name: article-writing
 group: Content
-description: >-
-  Write the piece: search-intent structure, keyword-led headings, internal links and schema. Use
-  when drafting in-depth articles, tutorials, or opinionated essays.
+description: Write the piece: search-intent structure, keyword headings, internal links and schema. For prose voice, see writing-taste. Use when drafting in-depth articles, tutorials, or essays.
 ---
+
 # Article Writing
 
-Write the piece: search-intent structure, keyword-led headings, internal links and schema..
+Technical article writing is search-intent satisfaction and authority building, not keyword-stuffed SEO filler. High-ranking technical articles provide immediate answers to user queries, maintain clean structural hierarchies, include original code/data illustrations, and eliminate AI writing tells.
 
-## Process
+## 1. Search-Intent Decomposition & Article Architecture
+Before writing a single sentence, classify the searcher's intent:
+- **Informational / Conceptual**: Seeking understanding ("How does Raft consensus work?"). Requires architectural diagrams, historical context, and mental models.
+- **Procedural / How-To**: Seeking execution ("How to configure Redis cluster in Docker"). Requires step-by-step terminal commands, configuration snippets, and error mitigation.
+- **Commercial / Comparative**: Seeking a purchasing or architectural decision ("Kafka vs RabbitMQ"). Requires benchmark tables, tradeoff criteria, and decision trees.
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+## 2. The Structural Layout Template
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+```markdown
+# [Clear, Search-Intent Focused Title]
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+[Direct 2-sentence answer summarizing the solution and core takeaway]
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+## 1. The Core Problem & Conceptual Architecture
+[Explain why this challenge exists, what breaks in naive implementations, and provide a diagram]
 
-## Deliverable & Output Format
+## 2. Step-by-Step Implementation Guide
+### Step 1: Environment & Prerequisites
+```bash
+# Executable command
+```
+### Step 2: Core Configuration
+```typescript
+// Complete, working code block with error handling
+```
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+## 3. Production Edge Cases & Performance Trade-offs
+[Detail memory limits, failure states, latency implications, and real-world benchmarks]
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+## 4. Key Takeaways & Decision Matrix
+| Option / Parameter | Best For | Trade-off / Limitation |
+|---|---|---|
+| Approach A | Low latency | Higher memory usage |
+| Approach B | Simplicity | Limited throughput |
+```
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+## 3. Technical Credibility & Code Quality Standards
+- **Runnable Code**: Every code block must be syntactically valid and tested against named software versions.
+- **Information Gain**: Never write an article that merely summarizes the top 3 Google search results. Add original benchmarking, failure post-mortems, or proprietary production data.
+- **Style Rules**: Use second-person ("you") and present tense; eliminate fluff introductions ("In today's fast-paced digital world..."); lead immediately with the problem and solution.
 
-## Instructions & Operating Rules
+## 4. Internal Linking & Topic Cluster Integration
+- Link out to 2–3 sibling articles within the same thematic cluster to pass domain authority.
+- Anchor text must describe the target page specifically (e.g. "review our [PostgreSQL indexing guide](/db-indexing)"), never generic phrases like "click here".
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+## Critical Rules
+1. Lead with the answer or executable code block within the first 150 words of the article.
+2. All code snippets must include language syntax tags (` ```python `, ` ```bash `) and explicit dependency requirements.
+3. Eliminate passive voice and corporate buzzwords; state facts, measurements, and trade-offs directly.
 
-## Verification & Quality Checklist
+## Verification Checklist
+- [ ] H1 and H2 headings reflect search queries and follow strict markdown hierarchy.
+- [ ] Code snippets verified runnable with versions stated.
+- [ ] Article contains original data, benchmark comparisons, or practical examples.
+- [ ] Internal links connect to relevant cluster documentation.
+- [ ] Anti-AI writing sweep completed (zero robotic transitions, hedging, or fluff).
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER write long introductory fluff explaining why a topic is important before answering the query.
+- NEVER publish untested pseudo-code that fails when copied into a developer's terminal.
+- NEVER hide the direct answer behind a wall of marketing preamble.

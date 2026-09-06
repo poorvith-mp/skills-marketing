@@ -5,59 +5,55 @@ description: >-
   Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion. Use
   when optimizing iOS App Store or Google Play keywords and listings.
 ---
+
 # App Store Optimization
 
-Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion..
+App Store Optimization (ASO) is organic conversion rate optimization and search indexing across the Apple App Store and Google Play Store. ASO combines algorithmic keyword indexation, visual asset optimization (icons, screenshots, app previews), localization, and review sentiment engineering to maximize organic installs and improve paid acquisition conversion.
 
-## Process
+## 1. App Store Search Algorithm Mechanics
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+### Apple App Store Indexing Fields
+Apple indexes keywords from three specific metadata fields with strict character limits:
+- **App Name (Title - Max 30 chars)**: Highest algorithmic weight. Include brand name + primary keyword (e.g. `Brand: Fast Task Manager`).
+- **Subtitle (Max 30 chars)**: Second highest weight. Secondary keywords and core value proposition.
+- **Keyword Field (Max 100 chars, hidden)**: Comma-separated, no spaces after commas.
+  - *Rules*: Never repeat keywords already present in the title or subtitle; do not include competitor trademarked names; use singular forms (Apple auto-indexes plurals).
+- *Total Search Space*: Apple does **NOT** index the main description text for search ranking.
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+### Google Play Store Indexing Fields
+Google Play indexes using full semantic natural language processing (NLP):
+- **App Title (Max 30 chars)**: Core keyword anchor.
+- **Short Description (Max 80 chars)**: Critical for both search indexing and store listing conversion.
+- **Long Description (Max 4,000 chars)**: Google indexes the entire text. Target a 2%–3% keyword density for primary search phrases; structure with clean headings and bullet lists.
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+## 2. Visual Asset Conversion Engineering
+Visuals drive 90% of download decisions once a user lands on the listing:
+- **App Icon**: Test bold, recognizable silhouette designs against white, dark, and wallpaper backgrounds. Avoid tiny unreadable text inside the icon.
+- **First 3 Screenshots (The Impression Zone)**:
+  - Screenshot 1 must answer: *What is this and why do I need it?*
+  - Use legible, high-contrast headline captions (minimum 40pt font on mobile devices).
+  - Show real, localized UI surfaces; avoid abstract lifestyle marketing graphics.
+- **App Preview Video (15–30 Seconds)**: Autoplays muted. First 3 seconds must showcase live product UI in action.
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+## 3. Ratings, Reviews & In-App Prompt Timing
+Star ratings directly affect algorithmic search visibility (apps below 4.0 stars suffer massive ranking penalties):
+- **Prompt Timing**: Never prompt for a review immediately after app installation or during a critical workflow.
+- **The "Happy Moment" Trigger**: Trigger the native `SKStoreReviewController` immediately after a user achieves a success state (e.g. completed their 5th task, exported a finished design).
+- **Review Velocity**: Apple and Google prioritize apps with steady, recent review velocity over stagnant historical ratings.
 
-## Deliverable & Output Format
+## Critical Rules
+1. Never put spaces after commas in Apple's 100-character keyword field (wastes valuable characters).
+2. Never prompt users for reviews more than 3 times in a 365-day period (enforced by Apple platform guidelines).
+3. Localize metadata and screenshots for top international markets (English, Spanish, Japanese, German).
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+## Verification Checklist
+- [ ] App title and subtitle stay strictly within 30-character limits.
+- [ ] Apple keyword field utilizes all 100 characters with zero repeated terms.
+- [ ] First three screenshots display high-contrast, legible benefit headlines.
+- [ ] Review prompt triggered exclusively during positive user achievement states.
+- [ ] App description on Google Play maintains 2%–3% keyword density without keyword stuffing.
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
-
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
-
-## Instructions & Operating Rules
-
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
-
-## Verification & Quality Checklist
-
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER include the word "free" or pricing claims in Apple App Store metadata (violates Apple Review Guideline 2.3.7).
+- NEVER use generic screenshots showing bare phone bezels without clear benefit copy.
+- NEVER purchase fake incentivized reviews; store algorithms detect velocity anomalies and remove apps.

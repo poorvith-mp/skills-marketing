@@ -5,59 +5,60 @@ description: >-
   Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets
   and kill criteria. Use when designing 90-day growth plans, GTM strategy, or channel roadmaps.
 ---
+
 # Growth Plan
 
-Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets and kill criteria..
+A growth plan is an executable 90-day operating roadmap that allocates capital, engineering, and creative resources against validated acquisition and retention levers. Strategic growth planning establishes stage-appropriate channel selection, models predictable revenue trajectories, assigns single-owner accountability, and enforces explicit kill criteria for failing initiatives.
 
-## Process
+## 1. Stage-Appropriate Channel Selection Matrix
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+Never attempt to execute 10 marketing channels simultaneously. Focus exclusively on 2 core channels matched to company maturity:
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+| Company Stage | Primary Objective | Priority Channel 1 | Priority Channel 2 | Channels to Avoid |
+|---|---|---|---|---|
+| **Pre-PMF / Seed ($0 – $20k MRR)** | Founder discovery, message validation | Direct cold outreach & 1-on-1 networking | Founder-led community & social building | Paid ads, programmatic SEO, PR agencies |
+| **Early Scale ($20k – $100k MRR)** | Repeatable unit economics, predictable engine | Organic search & content topic clusters | Targeted search ads or outbound cadences | Broad brand sponsorships, TV, billboards |
+| **Scaling ($100k+ MRR)** | Market expansion, channel diversification | Paid social / paid search scale | Partner ecosystems & programmatic distribution | Unattributed vanity marketing |
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+## 2. The 90-Day Execution Roadmap (The 30-60-90 Framework)
+Structure growth sprints into 30-day operational blocks:
+- **Days 1–30 (Foundation & Instrumentation)**:
+  - Finalize tracking schema; verify server-side conversion tags.
+  - Run customer interviews; extract voice-of-customer pain vocabulary.
+  - Audit existing funnel drop-offs; deploy quick-win onboarding improvements.
+- **Days 31–60 (Channel Testing & Creative Velocity)**:
+  - Launch 3 distinct creative angles across primary chosen acquisition channel.
+  - Run weekly A/B tests on high-impact landing page conversion surfaces.
+  - Conduct weekly BVA budget variance reviews.
+- **Days 61–90 (Scaling Winners & Enforcing Kill Criteria)**:
+  - Double down budget on channels meeting target CAC payback thresholds.
+  - Execute pre-defined kill criteria on failing experiments.
+  - Synthesize quarterly learnings into the next 90-day growth roadmap.
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+## 3. Objective & Key Result (OKR) Architecture
+Every growth plan must establish 1 overarching Objective and 3 measurable Key Results:
+- **Objective**: Establish a predictable self-serve developer acquisition engine in Q4.
+- **Key Result 1**: Increase weekly activated signups from 150 to 350.
+- **Key Result 2**: Reduce paid acquisition CAC payback period from 14 months to 9 months.
+- **Key Result 3**: Publish 12 high-intent technical documentation tutorials generating 15,000 organic visits.
 
-## Deliverable & Output Format
+## 4. Mandatory Kill Criteria Protocol
+Growth teams fail when they continue funding zombie channels. Every initiative must declare an explicit kill criterion before launch:
+- *Example*: "If Paid Search fails to generate qualified demo requests at a CAC below $400 after spending $5,000, we pause the channel entirely and reallocate budget to outbound."
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+## Critical Rules
+1. Every growth initiative must have a single Directly Responsible Individual (DRI), not shared team ownership.
+2. Never launch a paid acquisition campaign without a pre-defined spend cap and kill threshold.
+3. Review channel metrics weekly against trailing 7-day and 30-day cohort retention.
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+## Verification Checklist
+- [ ] Channels selected strictly aligned with current company stage and ARR baseline.
+- [ ] 90-day roadmap divided into 30-day operational execution phases.
+- [ ] OKRs define measurable, verifiable metric targets rather than vague activities.
+- [ ] Pre-defined kill criteria established for all experimental initiatives.
+- [ ] Fully-loaded budget allocated with clear personnel and media spend ceilings.
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
-
-## Instructions & Operating Rules
-
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
-
-## Verification & Quality Checklist
-
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER attempt to execute more than two primary customer acquisition channels simultaneously at early stage.
+- NEVER evaluate channel success on top-line vanity impressions rather than paying customers.
+- NEVER alter target OKRs midway through a quarter to make underperforming initiatives look successful.

@@ -5,59 +5,78 @@ description: >-
   Model CAC, LTV, payback and channel break-even so spend decisions have a floor. Use when
   calculating CAC, LTV, payback periods, or contribution margin.
 ---
+
 # Unit Economics
 
-Model CAC, LTV, payback and channel break-even so spend decisions have a floor..
+Growth without positive unit economics is accelerated insolvency. Marketing and growth investments must be governed by fully-loaded Customer Acquisition Cost (CAC), gross-margin-adjusted Lifetime Value (LTV), cash payback velocity, and channel-level contribution margins.
 
-## Process
+## 1. Core Mathematical Formulations
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+### A. Customer Acquisition Cost (CAC)
+Distinguish between blended and paid acquisition costs:
+- **Paid CAC**:
+  $$\text{Paid CAC} = \frac{\text{Direct Paid Ad Spend}}{\text{Customers Acquired via Paid Channels}}$$
+- **Fully-Loaded CAC** (the true economic floor):
+  $$\text{Fully-Loaded CAC} = \frac{\text{Ad Spend} + \text{Agency/Creative Fees} + \text{Salaries (Sales + Mktg)} + \text{Software Stack}}{\text{Total New Customers Acquired}}$$
+  *Rule*: Always use Fully-Loaded CAC when setting budget ceilings.
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+### B. Customer Lifetime Value (LTV)
+Never calculate LTV using top-line revenue alone; LTV must be adjusted for cost of goods sold (COGS):
+$$\text{LTV} = \frac{\text{ARPU} \times \text{Gross Margin \%}}{\text{Customer Churn Rate (Monthly)}}$$
+- **ARPU**: Average Revenue Per User/Account per month.
+- **Gross Margin \%**: `(Revenue - Hosting/Payment/Support COGS) / Revenue`. For B2B SaaS, benchmark is 75%–85%; for e-commerce, 40%–60%.
+- **Expansion-Adjusted LTV** (when Net Revenue Retention > 100%):
+  $$\text{LTV} = \frac{\text{Initial ARPU} \times \text{Gross Margin \%}}{\text{Churn Rate} - \text{Expansion Rate}}$$
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+### C. CAC Payback Period (Cash Velocity)
+Payback measures how many months of gross profit are required to recover the cash spent to acquire a customer:
+$$\text{CAC Payback (Months)} = \frac{\text{Fully-Loaded CAC}}{\text{Monthly ARPU} \times \text{Gross Margin \%}}$$
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+### D. Channel Contribution Margin & Break-Even ROAS
+Determine whether an individual acquisition channel is accretive:
+$$\text{Contribution Margin} = \text{Attributed Net Revenue} - \text{COGS} - \text{Channel Ad Spend} - \text{Payment Gateway Fees}$$
+$$\text{Break-Even ROAS} = \frac{1}{\text{Gross Margin \%}}$$
+*Example*: At 70% Gross Margin, break-even ROAS is `1 / 0.70 = 1.43x`. Any campaign below 1.43x ROAS destroys cash on the first transaction.
 
-## Deliverable & Output Format
+## 2. Benchmark Health Scorecard
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+| Metric | Danger Zone (< Floor) | Target (Healthy) | Exceptional (> Ceiling) |
+|---|---|---|---|
+| **LTV : CAC Ratio** | `< 2.5x` (Burning capital) | `3.0x – 5.0x` (Sustainable scale) | `> 5.0x` (Under-investing in acquisition) |
+| **B2B SaaS Payback** | `> 18 months` | `9 – 12 months` | `< 6 months` (Hyper-efficient) |
+| **B2C / Self-Serve Payback** | `> 12 months` | `4 – 6 months` | `< 3 months` (Near-instant cash recycle) |
+| **Gross Margin** | `< 65%` (SaaS) | `75% – 85%` | `> 88%` |
+| **Net Revenue Retention (NRR)** | `< 90%` | `105% – 115%` | `> 125%` (Enterprise expansion) |
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+## 3. Worked Example: B2B SaaS Tier
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+Given:
+- Monthly subscription: $200/month
+- Gross Margin: 80% (Hosting + payment processing = $40/month)
+- Monthly customer logo churn: 2.5% (Average lifetime = `1 / 0.025 = 40 months`)
+- Total sales & marketing monthly spend: $40,000
+- New customers closed per month: 25
 
-## Instructions & Operating Rules
+Calculations:
+1. **Fully-Loaded CAC**: `$40,000 / 25 = $1,600`
+2. **Gross Margin ARPU**: `$200 * 0.80 = $160/month`
+3. **LTV**: `$160 / 0.025 = $6,400`
+4. **LTV : CAC**: `$6,400 / $1,600 = 4.0x` (Healthy scaling zone)
+5. **CAC Payback**: `$1,600 / $160 = 10 months` (Meets the <12 month B2B benchmark)
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+## Critical Rules
+1. Never report Blended CAC as an excuse for an unprofitable paid ad channel; paid campaigns must stand on their own Paid CAC.
+2. Always deduct variable delivery and payment processing costs from revenue before computing LTV.
+3. If churn exceeds 5% monthly, fix customer retention and onboarding before increasing acquisition spend.
 
-## Verification & Quality Checklist
+## Verification Checklist
+- [ ] CAC calculation includes fully-loaded personnel, agency, and tooling costs.
+- [ ] LTV uses gross margin dollars rather than gross revenue.
+- [ ] Payback period calculated against gross profit contribution per month.
+- [ ] Break-even ROAS and contribution margin calculated for each paid channel.
+- [ ] Baseline metrics compared against industry cohort benchmarks.
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER use a single company-wide LTV across disparate customer segments (e.g. self-serve vs enterprise).
+- NEVER assume lifetime is infinite when churn is low; cap lifetime at 36 or 60 months in financial models.
+- NEVER scale marketing budgets based on top-line revenue when net contribution margin is negative.

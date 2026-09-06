@@ -5,59 +5,58 @@ description: >-
   Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer. Use
   when applying loss aversion, social proof, anchoring, or nudges.
 ---
+
 # Behavioral Levers
 
-Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer..
+Behavioral levers apply behavioral economics and cognitive heuristics to product interfaces, pricing displays, and checkout funnels. Ethical behavioral design eliminates cognitive load, anchors value expectations, frames trade-offs transparently, and leverages social proof to overcome decision paralysis.
 
-## Process
+## 1. Core Behavioral Economic Frameworks
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+### A. Price Anchoring & Asymmetric Decoys (Tversky & Kahneman)
+- **High-Anchor First**: Present the premium enterprise tier first ($299/mo). Subsequent options ($79/mo) are cognitively perceived as affordable by comparison.
+- **The Decoy Effect (Asymmetric Dominance)**:
+  - *Option A (Digital Only)*: $50
+  - *Option B (Print Only - Decoy)*: $100
+  - *Option C (Digital + Print Bundle)*: $100
+  - Option B exists solely to make Option C an irresistible value proposition.
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+### B. Loss Aversion & Endowment Effect
+Humans feel the pain of losing something roughly **2x to 2.5x more intensely** than the pleasure of gaining the equivalent value:
+- **Trial Design**: Instead of "Upgrade to get Feature X", frame as "Don't lose your custom dashboard and saved data when your trial ends on Friday."
+- **Endowed Progress**: Progress bars that start pre-filled (e.g. "Step 1 of 5 already completed!") have significantly higher completion rates than empty trackers.
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+### C. Social Proof & Herd Behavior
+Social proof must be hyper-specific to the prospect's cohort:
+- *Weak*: "Trusted by thousands of developers."
+- *Strong*: "Over 14,000 backend engineers use Skillary to manage agent workflows."
+- Position logos, customer quotes, and verifiable metrics immediately adjacent to high-friction action points (e.g. checkout forms, credit card inputs).
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+### D. Choice Architecture & Default Bias
+Users overwhelmingly choose the default pre-selected option:
+- Set the recommended tier ("Pro / Team") as the highlighted default.
+- Default billing toggles to "Annual (Save 20%)" while clearly stating the monthly equivalent price.
 
-## Deliverable & Output Format
+## 2. Decision Friction Audit Checklist
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+| Friction Point | Behavioral Cause | Design Solution |
+|---|---|---|
+| **Form Abandonment** | Analysis paralysis from too many form fields | Progressive disclosure: split into 2 low-friction micro-steps |
+| **Pricing Hesitation** | Uncertainty about future costs or hidden fees | Clear risk reversal: "Cancel anytime with 1 click; 30-day full refund guarantee" |
+| **Feature Overwhelm** | Paradox of Choice (Barry Schwartz) | Highlight top 3 differentiating features; collapse exhaustive feature lists |
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+## Critical Rules
+1. Never employ deceptive "dark patterns" (hidden subscriptions, disguised ads, difficult cancellation paths); dark patterns destroy brand equity and trigger regulatory action.
+2. Social proof claims and statistics must be 100% verified and factually true.
+3. Every urgency trigger (e.g. "Offer ends at midnight") must represent an actual operational deadline.
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+## Verification Checklist
+- [ ] Value anchor established before presenting secondary options.
+- [ ] Social proof placed directly next to primary conversion forms and buttons.
+- [ ] Endowed progress applied to multi-step signup and onboarding workflows.
+- [ ] Risk reversals (money-back guarantee, no card required) explicitly stated at decision points.
+- [ ] Interfaces audited to confirm zero deceptive dark patterns.
 
-## Instructions & Operating Rules
-
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
-
-## Verification & Quality Checklist
-
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
-
-## Anti-Patterns & Constraints
-
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## Anti-Patterns
+- NEVER use fake countdown timers that reset upon page refresh.
+- NEVER pre-check optional paid add-ons or marketing spam checkboxes by default.
+- NEVER hide cancellation or refund options behind phone calls or difficult support ticket queues.
