@@ -1,0 +1,7 @@
+should_fire:
+  - "help with lifecycle messaging"
+  - "design automated email, sms and push flows"
+  - "run lifecycle-messaging workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

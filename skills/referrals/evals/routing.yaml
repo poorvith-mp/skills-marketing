@@ -1,0 +1,7 @@
+should_fire:
+  - "help with referrals"
+  - "design referral, affiliate and ambassador programmes with incentives and payout mechanics."
+  - "run referrals workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

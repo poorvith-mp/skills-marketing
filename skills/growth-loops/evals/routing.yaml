@@ -1,0 +1,7 @@
+should_fire:
+  - "help with growth loops"
+  - "set up recurring marketing workflows an agent runs on a schedule."
+  - "run growth-loops workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

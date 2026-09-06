@@ -1,0 +1,7 @@
+should_fire:
+  - "help with lead magnets"
+  - "pick, produce and gate the download or template that captures emails."
+  - "run lead-magnets workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

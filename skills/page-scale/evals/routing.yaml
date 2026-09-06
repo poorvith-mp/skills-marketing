@@ -1,0 +1,7 @@
+should_fire:
+  - "help with page scale"
+  - "build templated pages from a dataset — locations, integrations, use cases — without tripping thin-content filters."
+  - "run page-scale workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with competitive intel"
+  - "turn competitor urls into structured dossiers, then into battlecards and vs/alternative pages."
+  - "run competitive-intel workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

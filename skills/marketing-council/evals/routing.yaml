@@ -1,0 +1,7 @@
+should_fire:
+  - "help with marketing council"
+  - "put a decision in front of a simulated board of legendary marketers and synthesise their verdict."
+  - "run marketing-council workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

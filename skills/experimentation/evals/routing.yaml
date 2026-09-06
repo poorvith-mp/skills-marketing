@@ -1,0 +1,7 @@
+should_fire:
+  - "help with experimentation"
+  - "design a/b tests, set sample size and duration, read results honestly, and run the backlog."
+  - "run experimentation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

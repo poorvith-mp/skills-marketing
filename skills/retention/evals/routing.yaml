@@ -1,0 +1,7 @@
+should_fire:
+  - "help with retention"
+  - "cut churn with cancel flows, save offers, dunning, exit surveys and account health signals."
+  - "run retention workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with free tools"
+  - "spec a free calculator, grader or generator as an acquisition channel."
+  - "run free-tools workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

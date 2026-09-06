@@ -1,0 +1,7 @@
+should_fire:
+  - "help with social content"
+  - "write platform-native posts, threads, carousels and short-form scripts on a cadence."
+  - "run social-content workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

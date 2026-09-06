@@ -1,0 +1,7 @@
+should_fire:
+  - "help with social listening"
+  - "monitor mentions, competitors and buying-intent threads, and surface where to reply today."
+  - "run social-listening workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

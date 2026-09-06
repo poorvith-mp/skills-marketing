@@ -1,0 +1,7 @@
+should_fire:
+  - "help with ad creative"
+  - "generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test roadmap."
+  - "run ad-creative workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

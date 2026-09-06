@@ -1,0 +1,7 @@
+should_fire:
+  - "help with conversion audit"
+  - "audit a page or form for friction and return a prioritised change list with expected lift."
+  - "run conversion-audit workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

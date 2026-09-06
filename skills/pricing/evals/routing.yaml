@@ -1,0 +1,7 @@
+should_fire:
+  - "help with pricing"
+  - "set tiers, value metric, trial versus freemium and price changes, and audit the pricing page."
+  - "run pricing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

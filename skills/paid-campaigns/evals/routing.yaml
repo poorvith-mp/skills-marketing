@@ -1,0 +1,7 @@
+should_fire:
+  - "help with paid campaigns"
+  - "structure, target, bid and optimise campaigns across google, meta, linkedin and x."
+  - "run paid-campaigns workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

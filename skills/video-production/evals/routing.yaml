@@ -1,0 +1,7 @@
+should_fire:
+  - "help with video production"
+  - "script and produce demos, explainers, ugc-style ads and avatar video."
+  - "run video-production workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

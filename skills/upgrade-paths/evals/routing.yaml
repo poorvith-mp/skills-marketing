@@ -1,0 +1,7 @@
+should_fire:
+  - "help with upgrade paths"
+  - "convert free to paid in-product"
+  - "run upgrade-paths workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

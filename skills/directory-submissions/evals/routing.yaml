@@ -1,0 +1,7 @@
+should_fire:
+  - "help with directory submissions"
+  - "submit to startup, saas, ai and mcp directories for backlinks and discovery, tracked."
+  - "run directory-submissions workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

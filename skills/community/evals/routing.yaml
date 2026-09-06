@@ -1,0 +1,7 @@
+should_fire:
+  - "help with community"
+  - "build and run a discord, slack or subreddit that produces advocates."
+  - "run community workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

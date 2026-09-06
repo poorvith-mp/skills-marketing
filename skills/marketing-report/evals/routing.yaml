@@ -1,0 +1,7 @@
+should_fire:
+  - "help with marketing report"
+  - "turn raw channel data into a weekly or monthly report with what changed and what to do next."
+  - "run marketing-report workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

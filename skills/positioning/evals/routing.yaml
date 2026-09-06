@@ -1,0 +1,7 @@
+should_fire:
+  - "help with positioning"
+  - "define category, icp, differentiators and message hierarchy, then save them as the context file every other skill reads."
+  - "run positioning workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

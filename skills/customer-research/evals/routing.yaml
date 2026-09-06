@@ -1,0 +1,7 @@
+should_fire:
+  - "help with customer research"
+  - "mine interviews, tickets, reviews and communities for the exact words customers use; output personas and jtbd."
+  - "run customer-research workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with visual assets"
+  - "generate on-brand images"
+  - "run visual-assets workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

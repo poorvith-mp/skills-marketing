@@ -1,0 +1,7 @@
+should_fire:
+  - "help with naming"
+  - "name the product, company or feature, then check it survives contact — domain, trademark, handles and store collisions."
+  - "run naming workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

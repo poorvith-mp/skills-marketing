@@ -1,0 +1,7 @@
+should_fire:
+  - "help with behavioral levers"
+  - "apply anchoring, loss aversion, social proof and framing to a specific page, price or offer."
+  - "run behavioral-levers workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

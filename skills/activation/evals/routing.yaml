@@ -1,0 +1,7 @@
+should_fire:
+  - "help with activation"
+  - "fix signup, first-run and onboarding so new users hit value in the first session."
+  - "run activation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

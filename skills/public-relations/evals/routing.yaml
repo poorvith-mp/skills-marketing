@@ -1,0 +1,7 @@
+should_fire:
+  - "help with public relations"
+  - "find journalists, pitch stories, newsjack and answer reporter requests."
+  - "run public-relations workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

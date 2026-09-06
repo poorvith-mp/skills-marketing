@@ -1,0 +1,7 @@
+should_fire:
+  - "help with unit economics"
+  - "model cac, ltv, payback and channel break-even so spend decisions have a floor."
+  - "run unit-economics workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

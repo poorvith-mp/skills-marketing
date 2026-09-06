@@ -1,0 +1,7 @@
+should_fire:
+  - "help with growth plan"
+  - "pick channels for the current stage, budget and team; output a 90-day plan with owners, targets and kill criteria."
+  - "run growth-plan workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

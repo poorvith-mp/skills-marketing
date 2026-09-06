@@ -1,0 +1,7 @@
+should_fire:
+  - "help with content strategy"
+  - "decide what to publish"
+  - "run content-strategy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

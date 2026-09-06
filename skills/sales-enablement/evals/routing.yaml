@@ -1,0 +1,7 @@
+should_fire:
+  - "help with sales enablement"
+  - "build the collateral that closes"
+  - "run sales-enablement workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

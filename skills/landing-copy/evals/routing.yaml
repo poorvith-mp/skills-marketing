@@ -1,0 +1,7 @@
+should_fire:
+  - "help with landing copy"
+  - "write or rewrite page copy"
+  - "run landing-copy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

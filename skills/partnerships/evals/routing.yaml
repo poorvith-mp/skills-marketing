@@ -1,0 +1,7 @@
+should_fire:
+  - "help with partnerships"
+  - "find and structure creator, sponsor and co-marketing deals"
+  - "run partnerships workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
