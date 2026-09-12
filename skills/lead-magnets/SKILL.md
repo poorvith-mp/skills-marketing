@@ -1,5 +1,6 @@
 ---
 name: lead-magnets
+last_reviewed: 2026-09-06
 group: Assets
 description: >-
   Pick, produce and gate the download or template that captures emails. Use when creating

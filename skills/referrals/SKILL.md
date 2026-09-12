@@ -1,5 +1,6 @@
 ---
 name: referrals
+last_reviewed: 2026-09-06
 group: Earned and partnerships
 description: >-
   Design referral, affiliate and ambassador programmes with incentives and payout mechanics. Use

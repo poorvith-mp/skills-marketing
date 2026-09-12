@@ -1,5 +1,6 @@
 ---
 name: marketing-council
+last_reviewed: 2026-09-06
 group: Operating layer
 description: >-
   Put a decision in front of a simulated board of legendary marketers and synthesise their

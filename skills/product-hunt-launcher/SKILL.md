@@ -1,5 +1,6 @@
 ---
 name: product-hunt-launcher
+last_reviewed: 2026-09-06
 description: Moved to launch in skills-marketing. Removed in v4.1.
 deprecated: true
 ---

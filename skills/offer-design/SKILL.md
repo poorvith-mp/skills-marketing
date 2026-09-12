@@ -1,5 +1,6 @@
 ---
 name: offer-design
+last_reviewed: 2026-09-06
 group: Offer and money
 description: >-
   Construct what you sell: value stack, bonuses, guarantee, urgency, naming and payment terms. Use

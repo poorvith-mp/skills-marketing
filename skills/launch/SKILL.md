@@ -1,5 +1,6 @@
 ---
 name: launch
+last_reviewed: 2026-09-06
 group: Distribution
 description: >-
   Run a launch end to end: sequencing, assets, waitlist, Product Hunt and the HN day-of playbook.

@@ -1,5 +1,6 @@
 ---
 name: conversion-rate-optimizer
+last_reviewed: 2026-09-06
 description: Moved to conversion-audit in skills-marketing. Removed in v4.1.
 deprecated: true
 ---

@@ -1,5 +1,6 @@
 ---
 name: app-store-optimization
+last_reviewed: 2026-09-06
 group: Platform and naming
 description: >-
   Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion. Use

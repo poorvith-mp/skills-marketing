@@ -1,5 +1,6 @@
 ---
 name: retention
+last_reviewed: 2026-09-06
 group: Lifecycle
 description: >-
   Cut churn with cancel flows, save offers, dunning, exit surveys and account health signals. Use

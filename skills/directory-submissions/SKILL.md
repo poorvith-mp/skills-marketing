@@ -1,5 +1,6 @@
 ---
 name: directory-submissions
+last_reviewed: 2026-09-06
 group: Distribution
 description: >-
   Submit to startup, SaaS, AI and MCP directories for backlinks and discovery, tracked. Use when

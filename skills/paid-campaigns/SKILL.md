@@ -1,5 +1,6 @@
 ---
 name: paid-campaigns
+last_reviewed: 2026-09-06
 group: Paid
 description: >-
   Structure, target, bid and optimise campaigns across Google, Meta, LinkedIn and X. Use when

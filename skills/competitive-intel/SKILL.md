@@ -1,5 +1,6 @@
 ---
 name: competitive-intel
+last_reviewed: 2026-09-06
 group: Foundation
 description: >-
   Turn competitor URLs into structured dossiers, then into battlecards and vs/alternative pages.

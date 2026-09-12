@@ -1,5 +1,6 @@
 ---
 name: free-tools
+last_reviewed: 2026-09-06
 group: Assets
 description: >-
   Spec a free calculator, grader or generator as an acquisition channel. Use when building

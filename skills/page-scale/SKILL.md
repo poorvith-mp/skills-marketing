@@ -1,5 +1,6 @@
 ---
 name: page-scale
+last_reviewed: 2026-09-06
 group: Search and AI discovery
 description: >-
   Build templated pages from a dataset — locations, integrations, use cases — without tripping

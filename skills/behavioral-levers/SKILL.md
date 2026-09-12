@@ -1,5 +1,6 @@
 ---
 name: behavioral-levers
+last_reviewed: 2026-09-06
 group: Operating layer
 description: >-
   Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer. Use

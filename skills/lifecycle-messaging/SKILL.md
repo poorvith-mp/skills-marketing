@@ -1,5 +1,6 @@
 ---
 name: lifecycle-messaging
+last_reviewed: 2026-09-06
 group: Lifecycle
 description: >-
   Design automated email, SMS and push flows: welcome, nurture, cart, win-back and broadcast. Use

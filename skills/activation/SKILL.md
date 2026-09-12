@@ -1,5 +1,6 @@
 ---
 name: activation
+last_reviewed: 2026-09-06
 group: Website conversion
 description: >-
   Fix signup, first-run and onboarding so new users hit value in the first session. Use when

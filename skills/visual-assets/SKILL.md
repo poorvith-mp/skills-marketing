@@ -1,5 +1,6 @@
 ---
 name: visual-assets
+last_reviewed: 2026-09-06
 group: Assets
 description: >-
   Generate on-brand images: OG cards, blog heroes, social graphics and mockups. Use when creating

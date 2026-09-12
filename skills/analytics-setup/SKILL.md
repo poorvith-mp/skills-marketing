@@ -1,5 +1,6 @@
 ---
 name: analytics-setup
+last_reviewed: 2026-09-06
 group: Measurement
 description: >-
   Install and QA tracking: event plan, UTMs, GA4/GTM and conversion tracking. Use when configuring

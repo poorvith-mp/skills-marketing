@@ -1,5 +1,6 @@
 ---
 name: social-listening
+last_reviewed: 2026-09-06
 group: Distribution
 description: >-
   Monitor mentions, competitors and buying-intent threads, and surface where to reply today. Use

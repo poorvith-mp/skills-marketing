@@ -1,5 +1,6 @@
 ---
 name: public-relations
+last_reviewed: 2026-09-06
 group: Earned and partnerships
 description: >-
   Find journalists, pitch stories, newsjack and answer reporter requests. Use when pitching tech

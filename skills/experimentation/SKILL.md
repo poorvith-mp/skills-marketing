@@ -1,5 +1,6 @@
 ---
 name: experimentation
+last_reviewed: 2026-09-06
 group: Measurement
 description: >-
   Design A/B tests, set sample size and duration, read results honestly, and run the backlog. Use

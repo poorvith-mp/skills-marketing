@@ -1,5 +1,6 @@
 ---
 name: seo-audit
+last_reviewed: 2026-09-06
 group: Search and AI discovery
 description: >-
   Diagnose technical, on-page and ranking-loss issues on a live site, ranked by impact. Use when

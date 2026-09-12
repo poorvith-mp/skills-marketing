@@ -1,5 +1,6 @@
 ---
 name: sales-enablement
+last_reviewed: 2026-09-06
 group: Sales handoff
 description: >-
   Build the collateral that closes: decks, one-pagers, demo scripts and objection handling. Use

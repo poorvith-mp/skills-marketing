@@ -1,5 +1,6 @@
 ---
 name: article-writing
+last_reviewed: 2026-09-06
 group: Content
 description: Write the piece: search-intent structure, keyword headings, internal links and schema. For prose voice, see writing-taste. Use when drafting in-depth articles, tutorials, or essays.
 ---

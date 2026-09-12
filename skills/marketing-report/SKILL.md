@@ -1,5 +1,6 @@
 ---
 name: marketing-report
+last_reviewed: 2026-09-06
 group: Measurement
 description: >-
   Turn raw channel data into a weekly or monthly report with what changed and what to do next. Use

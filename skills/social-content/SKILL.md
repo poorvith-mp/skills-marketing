@@ -1,5 +1,6 @@
 ---
 name: social-content
+last_reviewed: 2026-09-06
 group: Distribution
 description: >-
   Write platform-native posts, threads, carousels and short-form scripts on a cadence. Use when

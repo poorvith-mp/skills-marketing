@@ -1,5 +1,6 @@
 ---
 name: landing-copy
+last_reviewed: 2026-09-06
 group: Website conversion
 description: >-
   Write or rewrite page copy: hero, value prop, objections and CTAs, for any marketing page. Use

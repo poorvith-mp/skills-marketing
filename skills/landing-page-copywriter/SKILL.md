@@ -1,5 +1,6 @@
 ---
 name: landing-page-copywriter
+last_reviewed: 2026-09-06
 description: Moved to landing-copy in skills-marketing. Removed in v4.1.
 deprecated: true
 ---

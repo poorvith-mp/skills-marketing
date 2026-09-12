@@ -1,5 +1,6 @@
 ---
 name: content-strategy
+last_reviewed: 2026-09-06
 group: Content
 description: >-
   Decide what to publish: topic clusters, publishing calendar, refresh queue and what to kill. Use

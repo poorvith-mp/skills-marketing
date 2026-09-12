@@ -1,5 +1,6 @@
 ---
 name: naming
+last_reviewed: 2026-09-06
 group: Platform and naming
 description: >-
   Name the product, company or feature, then check it survives contact — domain, trademark,

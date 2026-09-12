@@ -1,5 +1,6 @@
 ---
 name: attribution
+last_reviewed: 2026-09-06
 group: Measurement
 description: >-
   Work out which channels actually drive revenue and reconcile conflicting platform numbers. Use

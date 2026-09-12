@@ -1,5 +1,6 @@
 ---
 name: growth-plan
+last_reviewed: 2026-09-06
 group: Foundation
 description: >-
   Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets

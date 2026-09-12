@@ -1,5 +1,6 @@
 ---
 name: ai-visibility
+last_reviewed: 2026-09-06
 group: Search and AI discovery
 description: >-
   Get cited by ChatGPT, Gemini, Perplexity and AI Overviews: answer-shaped content, schema, feeds,

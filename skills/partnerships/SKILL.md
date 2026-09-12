@@ -1,5 +1,6 @@
 ---
 name: partnerships
+last_reviewed: 2026-09-06
 group: Earned and partnerships
 description: Find and structure creator, sponsor and co-marketing deals: vetting, briefs, and ROI. For reseller channels, see alliances. Use when structuring co-marketing or ecosystem integrations.
 ---

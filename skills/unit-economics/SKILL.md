@@ -1,5 +1,6 @@
 ---
 name: unit-economics
+last_reviewed: 2026-09-06
 group: Offer and money
 description: >-
   Model CAC, LTV, payback and channel break-even so spend decisions have a floor. Use when

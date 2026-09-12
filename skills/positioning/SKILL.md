@@ -1,5 +1,6 @@
 ---
 name: positioning
+last_reviewed: 2026-09-06
 group: Foundation
 description: >-
   Define category, ICP, differentiators and message hierarchy, then save them as the context file

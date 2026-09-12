@@ -1,5 +1,6 @@
 ---
 name: upgrade-paths
+last_reviewed: 2026-09-06
 group: Lifecycle
 description: >-
   Convert free to paid in-product: feature gates, upgrade screens, trial-end moments and expansion

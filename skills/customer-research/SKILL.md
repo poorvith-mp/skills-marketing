@@ -1,5 +1,6 @@
 ---
 name: customer-research
+last_reviewed: 2026-09-06
 group: Foundation
 description: >-
   Mine interviews, tickets, reviews and communities for the exact words customers use; output

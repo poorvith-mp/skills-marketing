@@ -1,5 +1,6 @@
 ---
 name: social-media-strategist
+last_reviewed: 2026-09-06
 description: Moved to social-content in skills-marketing. Removed in v4.1.
 deprecated: true
 ---

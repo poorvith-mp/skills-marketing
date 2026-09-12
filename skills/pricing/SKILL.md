@@ -1,5 +1,6 @@
 ---
 name: pricing
+last_reviewed: 2026-09-06
 group: Offer and money
 description: >-
   Set tiers, value metric, trial versus freemium and price changes, and audit the pricing page.

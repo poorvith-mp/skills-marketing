@@ -1,5 +1,6 @@
 ---
 name: link-building
+last_reviewed: 2026-09-06
 group: Search and AI discovery
 description: >-
   Earn links: prospect targets, guest posts, digital PR, broken-link and unlinked-mention

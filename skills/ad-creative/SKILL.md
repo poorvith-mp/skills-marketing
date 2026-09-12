@@ -1,5 +1,6 @@
 ---
 name: ad-creative
+last_reviewed: 2026-09-06
 group: Paid
 description: >-
   Generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test

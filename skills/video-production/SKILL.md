@@ -1,5 +1,6 @@
 ---
 name: video-production
+last_reviewed: 2026-09-06
 group: Assets
 description: >-
   Script and produce demos, explainers, UGC-style ads and avatar video. Use when scripting or
